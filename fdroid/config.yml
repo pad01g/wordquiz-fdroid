@@ -1,0 +1,21 @@
+# 自前 F-Droid リポジトリの設定。
+#
+# 署名鍵 (fdroid.keystore) はここには置かない。CI が実行時に配置し、
+# パスワードは環境変数から読ませる。
+---
+repo_url: https://pad01g.github.io/wordquiz-fdroid/fdroid/repo
+repo_name: WordQuiz
+repo_description: |-
+  WordQuiz を配布するための自前リポジトリです。
+  4択クイズで単語を覚え、間違えた単語だけを端末ローカルに記録して復習できます。
+repo_icon: icon.png
+
+# 古いバージョンも repo に残す (アーカイブへ移さない)。
+# 練習用でバージョン数が少ないため、分割しても手間が増えるだけ。
+archive_older: 0
+
+sdk_path: $ANDROID_HOME
+keystore: fdroid.keystore
+repo_keyalias: wordquizrepo
+keystorepass: {env: FDROID_KEYSTORE_PASS}
+keypass: {env: FDROID_KEY_PASS}

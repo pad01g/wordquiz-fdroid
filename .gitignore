@@ -1,0 +1,10 @@
+# 署名鍵は絶対にコミットしない (CI が実行時に配置する)
+*.keystore
+*.jks
+fdroid/tmp/
+fdroid/srclibs/
+fdroid/build/
+fdroid/unsigned/
+
+# fdroid update が毎回書き出す実行状況 (差分ノイズになるだけ)
+fdroid/repo/status/

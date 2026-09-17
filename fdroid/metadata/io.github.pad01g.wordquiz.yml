@@ -1,0 +1,18 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: pad01g
+SourceCode: https://github.com/pad01g/wordquiz-frontend
+IssueTracker: https://github.com/pad01g/wordquiz-frontend/issues
+
+Name: WordQuiz
+Summary: 4択クイズで単語を覚える
+Description: |-
+  単語に対して4択のクイズが出題されます。
+  間違えた単語だけが端末のローカルに記録され、あとからまとめて復習できます。
+  復習で正解すると、その単語は記録から消えます。
+
+  学習の記録が端末の外に出ることはありません。
+  単語のデータは読み取り専用の静的な配信元から取得します。
+
+AutoName: WordQuiz
