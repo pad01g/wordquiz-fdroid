@@ -14,7 +14,81 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1789606940000
+    "timestamp": 1789607125000,
+    "categories": {
+      "Science & Education": {
+        "name": {
+          "en-US": "Science & Education"
+        }
+      }
+    }
   },
-  "packages": {}
+  "packages": {
+    "io.github.pad01g.wordquiz": {
+      "metadata": {
+        "added": 1789607125000,
+        "categories": [
+          "Science & Education"
+        ],
+        "issueTracker": "https://github.com/pad01g/wordquiz-frontend/issues",
+        "lastUpdated": 1789607125000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/pad01g/wordquiz-frontend",
+        "authorName": "pad01g",
+        "name": {
+          "en-US": "WordQuiz"
+        },
+        "summary": {
+          "en-US": "4択クイズで単語を覚える"
+        },
+        "description": {
+          "en-US": "単語に対して4択のクイズが出題されます。\n間違えた単語だけが端末のローカルに記録され、あとからまとめて復習できます。\n復習で正解すると、その単語は記録から消えます。\n\n学習の記録が端末の外に出ることはありません。\n単語のデータは読み取り専用の静的な配信元から取得します。"
+        },
+        "preferredSigner": "ff72a3699017df2a94bfc913545bdeacf3d4da8014e3f2f3fa1dd90969aa2102"
+      },
+      "versions": {
+        "0b3092d4f1c93a9e3c677dde24cab8ac16d3b49215533872f559240da61db5a5": {
+          "added": 1789607125000,
+          "file": {
+            "name": "/io.github.pad01g.wordquiz_1.apk",
+            "sha256": "0b3092d4f1c93a9e3c677dde24cab8ac16d3b49215533872f559240da61db5a5",
+            "size": 4536116
+          },
+          "manifest": {
+            "versionName": "0.1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "ff72a3699017df2a94bfc913545bdeacf3d4da8014e3f2f3fa1dd90969aa2102"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "io.github.pad01g.wordquiz.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
 }

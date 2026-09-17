@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1789606940000,
+    "timestamp": 1789607125000,
     "version": 20002,
     "name": "WordQuiz",
     "icon": "icon.png",
@@ -11,6 +11,66 @@
     "install": [],
     "uninstall": []
   },
-  "apps": [],
-  "packages": {}
+  "apps": [
+    {
+      "authorName": "pad01g",
+      "categories": [
+        "Science & Education"
+      ],
+      "suggestedVersionCode": "1",
+      "description": "\u5358\u8a9e\u306b\u5bfe\u3057\u30664\u629e\u306e\u30af\u30a4\u30ba\u304c\u51fa\u984c\u3055\u308c\u307e\u3059\u3002\n\u9593\u9055\u3048\u305f\u5358\u8a9e\u3060\u3051\u304c\u7aef\u672b\u306e\u30ed\u30fc\u30ab\u30eb\u306b\u8a18\u9332\u3055\u308c\u3001\u3042\u3068\u304b\u3089\u307e\u3068\u3081\u3066\u5fa9\u7fd2\u3067\u304d\u307e\u3059\u3002\n\u5fa9\u7fd2\u3067\u6b63\u89e3\u3059\u308b\u3068\u3001\u305d\u306e\u5358\u8a9e\u306f\u8a18\u9332\u304b\u3089\u6d88\u3048\u307e\u3059\u3002\n\n\u5b66\u7fd2\u306e\u8a18\u9332\u304c\u7aef\u672b\u306e\u5916\u306b\u51fa\u308b\u3053\u3068\u306f\u3042\u308a\u307e\u305b\u3093\u3002\n\u5358\u8a9e\u306e\u30c7\u30fc\u30bf\u306f\u8aad\u307f\u53d6\u308a\u5c02\u7528\u306e\u9759\u7684\u306a\u914d\u4fe1\u5143\u304b\u3089\u53d6\u5f97\u3057\u307e\u3059\u3002",
+      "issueTracker": "https://github.com/pad01g/wordquiz-frontend/issues",
+      "license": "MIT",
+      "name": "WordQuiz",
+      "sourceCode": "https://github.com/pad01g/wordquiz-frontend",
+      "summary": "4\u629e\u30af\u30a4\u30ba\u3067\u5358\u8a9e\u3092\u899a\u3048\u308b",
+      "added": 1789607125000,
+      "packageName": "io.github.pad01g.wordquiz",
+      "lastUpdated": 1789607125000
+    }
+  ],
+  "packages": {
+    "io.github.pad01g.wordquiz": [
+      {
+        "added": 1789607125000,
+        "apkName": "io.github.pad01g.wordquiz_1.apk",
+        "hash": "0b3092d4f1c93a9e3c677dde24cab8ac16d3b49215533872f559240da61db5a5",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "packageName": "io.github.pad01g.wordquiz",
+        "sig": "f2b67930cc9c21d2936fcda829f77117",
+        "signer": "ff72a3699017df2a94bfc913545bdeacf3d4da8014e3f2f3fa1dd90969aa2102",
+        "size": 4536116,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "io.github.pad01g.wordquiz.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "0.1.0"
+      }
+    ]
+  }
 }
