@@ -1,17 +1,36 @@
 {
   "repo": {
-    "timestamp": 1789607125000,
+    "timestamp": 1789654679000,
     "version": 20002,
-    "name": "WordQuiz",
+    "name": "pad01g's apps",
     "icon": "icon.png",
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "description": "WordQuiz \u3092\u914d\u5e03\u3059\u308b\u305f\u3081\u306e\u81ea\u524d\u30ea\u30dd\u30b8\u30c8\u30ea\u3067\u3059\u3002\n4\u629e\u30af\u30a4\u30ba\u3067\u5358\u8a9e\u3092\u899a\u3048\u3001\u9593\u9055\u3048\u305f\u5358\u8a9e\u3060\u3051\u3092\u7aef\u672b\u30ed\u30fc\u30ab\u30eb\u306b\u8a18\u9332\u3057\u3066\u5fa9\u7fd2\u3067\u304d\u307e\u3059\u3002"
+    "description": "pad01g \u304c\u4f5c\u3063\u305f\u30a2\u30d7\u30ea\u3092\u914d\u5e03\u3059\u308b\u305f\u3081\u306e\u81ea\u524d\u30ea\u30dd\u30b8\u30c8\u30ea\u3067\u3059\u3002\n\u30ea\u30dd\u30b8\u30c8\u30ea\u3092\u4e00\u5ea6\u8ffd\u52a0\u3057\u3066\u304a\u3051\u3070\u3001\u3042\u3068\u304b\u3089\u5897\u3048\u305f\u30a2\u30d7\u30ea\u3082\u4e00\u89a7\u306b\u51fa\u307e\u3059\u3002\n\n\u53ce\u9332\u30a2\u30d7\u30ea:\n- WordQuiz \u2014 4\u629e\u30af\u30a4\u30ba\u3067\u5358\u8a9e\u3092\u899a\u3048\u3001\u9593\u9055\u3048\u305f\u5358\u8a9e\u3060\u3051\u3092\u5fa9\u7fd2\u3059\u308b\n- P2P Chess \u2014 \u7aef\u672b\u3069\u3046\u3057\u304c\u76f4\u63a5\u3064\u306a\u304c\u3063\u3066\u5bfe\u5c40\u3059\u308b\u30c1\u30a7\u30b9"
   },
   "requests": {
     "install": [],
     "uninstall": []
   },
   "apps": [
+    {
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
+      "authorName": "pad01g",
+      "categories": [
+        "Games"
+      ],
+      "suggestedVersionCode": "100",
+      "description": "\u90e8\u5c4b\u30b3\u30fc\u30c9\u3092\u76f8\u624b\u306b\u4f1d\u3048\u308b\u3060\u3051\u3067\u5bfe\u5c40\u3067\u304d\u308b\u30c1\u30a7\u30b9\u3067\u3059\u3002\n\u5bfe\u5c40\u4e2d\u306e\u6307\u3057\u624b\u306f\u3001\u3067\u304d\u308b\u304b\u304e\u308a\u7aef\u672b\u3069\u3046\u3057\u304c\u76f4\u63a5\u3084\u308a\u53d6\u308a\u3057\u307e\u3059\n(WebRTC \u306e DataChannel)\u3002\n\n\u76f4\u63a5\u3064\u306a\u3052\u306a\u3044\u56de\u7dda\u3067\u306f\u4e2d\u7d99\u30b5\u30fc\u30d0\u3092\u631f\u307f\u3001\u305d\u308c\u3082\u99c4\u76ee\u306a\u3068\u304d\u306f\n\u5f85\u3061\u5408\u308f\u305b\u30b5\u30fc\u30d0\u304c\u6307\u3057\u624b\u3092\u4e2d\u7d99\u3057\u307e\u3059\u3002\n\u3044\u307e\u3069\u306e\u7d4c\u8def\u3067\u7e4b\u304c\u3063\u3066\u3044\u308b\u304b\u306f\u5bfe\u5c40\u753b\u9762\u306b\u8868\u793a\u3055\u308c\u307e\u3059\u3002\n\n\u540c\u3058\u7aef\u672b\u3067\u306e 2 \u4eba\u5bfe\u6226\u3001\u8ab2\u984c\u5c40\u9762\u3001\u5b9a\u8de1\u306e\u95b2\u89a7\u306f\u30aa\u30d5\u30e9\u30a4\u30f3\u3067\u3082\u4f7f\u3048\u307e\u3059\u3002\n\n\u30a2\u30ab\u30a6\u30f3\u30c8\u767b\u9332\u306f\u3042\u308a\u307e\u305b\u3093\u3002\u68cb\u8b5c\u3068\u8a2d\u5b9a\u306f\u7aef\u672b\u306e\u4e2d\u306b\u3060\u3051\u4fdd\u5b58\u3055\u308c\u307e\u3059\u3002\n\n\u6ce8\u610f: \u7aef\u672b\u3069\u3046\u3057\u3092\u76f4\u63a5\u3064\u306a\u3050\u65b9\u5f0f\u306e\u6027\u8cea\u4e0a\u3001\u5bfe\u6226\u76f8\u624b\u306b\u3042\u306a\u305f\u306e\nIP \u30a2\u30c9\u30ec\u30b9\u304c\u898b\u3048\u307e\u3059\u3002\u6c17\u306b\u306a\u308b\u5834\u5408\u306f\u8a2d\u5b9a\u304b\u3089\n\u300c\u76f8\u624b\u306b IP \u30a2\u30c9\u30ec\u30b9\u3092\u898b\u305b\u306a\u3044\u300d\u3092\u6709\u52b9\u306b\u3059\u308b\u3068\u3001\n\u5e38\u306b\u4e2d\u7d99\u30b5\u30fc\u30d0\u3092\u7d4c\u7531\u3059\u308b\u3088\u3046\u306b\u306a\u308a\u307e\u3059\u3002",
+      "issueTracker": "https://github.com/pad01g/chess-frontend/issues",
+      "license": "MIT",
+      "name": "P2P Chess",
+      "sourceCode": "https://github.com/pad01g/chess-frontend",
+      "summary": "\u7aef\u672b\u3069\u3046\u3057\u304c\u76f4\u63a5\u3064\u306a\u304c\u3063\u3066\u6307\u3059\u30c1\u30a7\u30b9",
+      "added": 1789654678000,
+      "packageName": "io.github.pad01g.p2pchess",
+      "lastUpdated": 1789654678000
+    },
     {
       "authorName": "pad01g",
       "categories": [
@@ -30,6 +49,48 @@
     }
   ],
   "packages": {
+    "io.github.pad01g.p2pchess": [
+      {
+        "added": 1789654678000,
+        "apkName": "io.github.pad01g.p2pchess_100.apk",
+        "hash": "b3a93b08ae933ff3e6e4f73cdcc5737c4dbe764178bef1d7ae81042788ec7bc2",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "packageName": "io.github.pad01g.p2pchess",
+        "sig": "91b53de0de86eaf3d61d7c5cb7ea8c19",
+        "signer": "2c3e1def26ea6342ca658fc1d4e6452d802cc7969c7dffd1f03963333d20f543",
+        "size": 4518648,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "io.github.pad01g.p2pchess.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 100,
+        "versionName": "0.1.0"
+      }
+    ],
     "io.github.pad01g.wordquiz": [
       {
         "added": 1789607125000,

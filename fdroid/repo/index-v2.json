@@ -1,10 +1,10 @@
 {
   "repo": {
     "name": {
-      "en-US": "WordQuiz"
+      "en-US": "pad01g's apps"
     },
     "description": {
-      "en-US": "WordQuiz を配布するための自前リポジトリです。\n4択クイズで単語を覚え、間違えた単語だけを端末ローカルに記録して復習できます。"
+      "en-US": "pad01g が作ったアプリを配布するための自前リポジトリです。\nリポジトリを一度追加しておけば、あとから増えたアプリも一覧に出ます。\n\n収録アプリ:\n- WordQuiz — 4択クイズで単語を覚え、間違えた単語だけを復習する\n- P2P Chess — 端末どうしが直接つながって対局するチェス"
     },
     "icon": {
       "en-US": {
@@ -14,8 +14,13 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1789607125000,
+    "timestamp": 1789654679000,
     "categories": {
+      "Games": {
+        "name": {
+          "en-US": "Games"
+        }
+      },
       "Science & Education": {
         "name": {
           "en-US": "Science & Education"
@@ -24,6 +29,77 @@
     }
   },
   "packages": {
+    "io.github.pad01g.p2pchess": {
+      "metadata": {
+        "added": 1789654678000,
+        "categories": [
+          "Games"
+        ],
+        "issueTracker": "https://github.com/pad01g/chess-frontend/issues",
+        "lastUpdated": 1789654678000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/pad01g/chess-frontend",
+        "authorName": "pad01g",
+        "name": {
+          "en-US": "P2P Chess"
+        },
+        "summary": {
+          "en-US": "端末どうしが直接つながって指すチェス"
+        },
+        "description": {
+          "en-US": "部屋コードを相手に伝えるだけで対局できるチェスです。\n対局中の指し手は、できるかぎり端末どうしが直接やり取りします\n(WebRTC の DataChannel)。\n\n直接つなげない回線では中継サーバを挟み、それも駄目なときは\n待ち合わせサーバが指し手を中継します。\nいまどの経路で繋がっているかは対局画面に表示されます。\n\n同じ端末での 2 人対戦、課題局面、定跡の閲覧はオフラインでも使えます。\n\nアカウント登録はありません。棋譜と設定は端末の中にだけ保存されます。\n\n注意: 端末どうしを直接つなぐ方式の性質上、対戦相手にあなたの\nIP アドレスが見えます。気になる場合は設定から\n「相手に IP アドレスを見せない」を有効にすると、\n常に中継サーバを経由するようになります。"
+        },
+        "preferredSigner": "2c3e1def26ea6342ca658fc1d4e6452d802cc7969c7dffd1f03963333d20f543"
+      },
+      "versions": {
+        "b3a93b08ae933ff3e6e4f73cdcc5737c4dbe764178bef1d7ae81042788ec7bc2": {
+          "added": 1789654678000,
+          "file": {
+            "name": "/io.github.pad01g.p2pchess_100.apk",
+            "sha256": "b3a93b08ae933ff3e6e4f73cdcc5737c4dbe764178bef1d7ae81042788ec7bc2",
+            "size": 4518648
+          },
+          "manifest": {
+            "versionName": "0.1.0",
+            "versionCode": 100,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "2c3e1def26ea6342ca658fc1d4e6452d802cc7969c7dffd1f03963333d20f543"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "io.github.pad01g.p2pchess.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {
+              "en-US": "対局相手との待ち合わせ (シグナリング) と NAT 越えの補助に、\n作者が運用するソース非公開のサーバを使います。\n対局そのもののデータは、可能なかぎり端末どうしで直接やり取りします。\nオフラインの機能 (同じ端末での 2 人対戦、課題局面、定跡) は\nサーバを使いません。"
+            }
+          }
+        }
+      }
+    },
     "io.github.pad01g.wordquiz": {
       "metadata": {
         "added": 1789607125000,
