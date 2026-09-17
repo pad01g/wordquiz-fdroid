@@ -4,10 +4,14 @@
 # パスワードは環境変数から読ませる。
 ---
 repo_url: https://pad01g.github.io/wordquiz-fdroid/fdroid/repo
-repo_name: WordQuiz
+repo_name: pad01g's apps
 repo_description: |-
-  WordQuiz を配布するための自前リポジトリです。
-  4択クイズで単語を覚え、間違えた単語だけを端末ローカルに記録して復習できます。
+  pad01g が作ったアプリを配布するための自前リポジトリです。
+  リポジトリを一度追加しておけば、あとから増えたアプリも一覧に出ます。
+
+  収録アプリ:
+  - WordQuiz — 4択クイズで単語を覚え、間違えた単語だけを復習する
+  - P2P Chess — 端末どうしが直接つながって対局するチェス
 repo_icon: icon.png
 
 # 古いバージョンも repo に残す (アーカイブへ移さない)。
