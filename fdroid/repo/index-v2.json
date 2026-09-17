@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1789658628000,
+    "timestamp": 1789659662000,
     "categories": {
       "Games": {
         "name": {
@@ -36,7 +36,7 @@
           "Games"
         ],
         "issueTracker": "https://github.com/pad01g/chess-frontend/issues",
-        "lastUpdated": 1789658627000,
+        "lastUpdated": 1789659662000,
         "license": "MIT",
         "sourceCode": "https://github.com/pad01g/chess-frontend",
         "authorName": "pad01g",
@@ -52,6 +52,52 @@
         "preferredSigner": "2c3e1def26ea6342ca658fc1d4e6452d802cc7969c7dffd1f03963333d20f543"
       },
       "versions": {
+        "56615e20271697a7e045b2a3415d691440d9354d89666827a8f762af6cbe7940": {
+          "added": 1789659662000,
+          "file": {
+            "name": "/io.github.pad01g.p2pchess_200.apk",
+            "sha256": "56615e20271697a7e045b2a3415d691440d9354d89666827a8f762af6cbe7940",
+            "size": 4519302
+          },
+          "manifest": {
+            "versionName": "0.2.0",
+            "versionCode": 200,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "2c3e1def26ea6342ca658fc1d4e6452d802cc7969c7dffd1f03963333d20f543"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "io.github.pad01g.p2pchess.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {
+              "en-US": "対局相手との待ち合わせ (シグナリング) と NAT 越えの補助に、\n作者が運用するソース非公開のサーバを使います。\n対局そのもののデータは、可能なかぎり端末どうしで直接やり取りします。\nオフラインの機能 (同じ端末での 2 人対戦、課題局面、定跡) は\nサーバを使いません。"
+            }
+          }
+        },
         "da063562a904a3fc9a3bbbae9c5d6d6cce1412227ccafb949916072eafcf97bd": {
           "added": 1789658627000,
           "file": {

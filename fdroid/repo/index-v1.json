@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1789658628000,
+    "timestamp": 1789659662000,
     "version": 20002,
     "name": "pad01g's apps",
     "icon": "icon.png",
@@ -20,7 +20,7 @@
       "categories": [
         "Games"
       ],
-      "suggestedVersionCode": "103",
+      "suggestedVersionCode": "200",
       "description": "\u90e8\u5c4b\u30b3\u30fc\u30c9\u3092\u76f8\u624b\u306b\u4f1d\u3048\u308b\u3060\u3051\u3067\u5bfe\u5c40\u3067\u304d\u308b\u30c1\u30a7\u30b9\u3067\u3059\u3002\n\u5bfe\u5c40\u4e2d\u306e\u6307\u3057\u624b\u306f\u3001\u3067\u304d\u308b\u304b\u304e\u308a\u7aef\u672b\u3069\u3046\u3057\u304c\u76f4\u63a5\u3084\u308a\u53d6\u308a\u3057\u307e\u3059\n(WebRTC \u306e DataChannel)\u3002\n\n\u76f4\u63a5\u3064\u306a\u3052\u306a\u3044\u56de\u7dda\u3067\u306f\u4e2d\u7d99\u30b5\u30fc\u30d0\u3092\u631f\u307f\u3001\u305d\u308c\u3082\u99c4\u76ee\u306a\u3068\u304d\u306f\n\u5f85\u3061\u5408\u308f\u305b\u30b5\u30fc\u30d0\u304c\u6307\u3057\u624b\u3092\u4e2d\u7d99\u3057\u307e\u3059\u3002\n\u3044\u307e\u3069\u306e\u7d4c\u8def\u3067\u7e4b\u304c\u3063\u3066\u3044\u308b\u304b\u306f\u5bfe\u5c40\u753b\u9762\u306b\u8868\u793a\u3055\u308c\u307e\u3059\u3002\n\n\u540c\u3058\u7aef\u672b\u3067\u306e 2 \u4eba\u5bfe\u6226\u3001\u8ab2\u984c\u5c40\u9762\u3001\u5b9a\u8de1\u306e\u95b2\u89a7\u306f\u30aa\u30d5\u30e9\u30a4\u30f3\u3067\u3082\u4f7f\u3048\u307e\u3059\u3002\n\n\u30a2\u30ab\u30a6\u30f3\u30c8\u767b\u9332\u306f\u3042\u308a\u307e\u305b\u3093\u3002\u68cb\u8b5c\u3068\u8a2d\u5b9a\u306f\u7aef\u672b\u306e\u4e2d\u306b\u3060\u3051\u4fdd\u5b58\u3055\u308c\u307e\u3059\u3002\n\n\u6ce8\u610f: \u7aef\u672b\u3069\u3046\u3057\u3092\u76f4\u63a5\u3064\u306a\u3050\u65b9\u5f0f\u306e\u6027\u8cea\u4e0a\u3001\u5bfe\u6226\u76f8\u624b\u306b\u3042\u306a\u305f\u306e\nIP \u30a2\u30c9\u30ec\u30b9\u304c\u898b\u3048\u307e\u3059\u3002\u6c17\u306b\u306a\u308b\u5834\u5408\u306f\u8a2d\u5b9a\u304b\u3089\n\u300c\u76f8\u624b\u306b IP \u30a2\u30c9\u30ec\u30b9\u3092\u898b\u305b\u306a\u3044\u300d\u3092\u6709\u52b9\u306b\u3059\u308b\u3068\u3001\n\u5e38\u306b\u4e2d\u7d99\u30b5\u30fc\u30d0\u3092\u7d4c\u7531\u3059\u308b\u3088\u3046\u306b\u306a\u308a\u307e\u3059\u3002",
       "issueTracker": "https://github.com/pad01g/chess-frontend/issues",
       "license": "MIT",
@@ -29,7 +29,7 @@
       "summary": "\u7aef\u672b\u3069\u3046\u3057\u304c\u76f4\u63a5\u3064\u306a\u304c\u3063\u3066\u6307\u3059\u30c1\u30a7\u30b9",
       "added": 1789654678000,
       "packageName": "io.github.pad01g.p2pchess",
-      "lastUpdated": 1789658627000
+      "lastUpdated": 1789659662000
     },
     {
       "authorName": "pad01g",
@@ -50,6 +50,46 @@
   ],
   "packages": {
     "io.github.pad01g.p2pchess": [
+      {
+        "added": 1789659662000,
+        "apkName": "io.github.pad01g.p2pchess_200.apk",
+        "hash": "56615e20271697a7e045b2a3415d691440d9354d89666827a8f762af6cbe7940",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "packageName": "io.github.pad01g.p2pchess",
+        "sig": "91b53de0de86eaf3d61d7c5cb7ea8c19",
+        "signer": "2c3e1def26ea6342ca658fc1d4e6452d802cc7969c7dffd1f03963333d20f543",
+        "size": 4519302,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "io.github.pad01g.p2pchess.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 200,
+        "versionName": "0.2.0"
+      },
       {
         "added": 1789658627000,
         "apkName": "io.github.pad01g.p2pchess_103.apk",
