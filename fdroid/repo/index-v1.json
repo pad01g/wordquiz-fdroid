@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1789819461000,
+    "timestamp": 1789823446000,
     "version": 20002,
     "name": "pad01g's apps",
     "icon": "icon.png",
@@ -20,7 +20,7 @@
       "categories": [
         "Connectivity"
       ],
-      "suggestedVersionCode": "100",
+      "suggestedVersionCode": "300",
       "description": "\u6761\u4ef6\u306e\u5408\u3046\u76f8\u624b\u3092 1 \u4eba\u305a\u3064\u8868\u793a\u3057\u3001\u300c\u3044\u3044\u306d\u300d\u304b\u300c\u30d1\u30b9\u300d\u3092\u9078\u3073\u307e\u3059\u3002\n\u304a\u4e92\u3044\u304c\u300c\u3044\u3044\u306d\u300d\u3057\u305f\u3089\u30de\u30c3\u30c1\u304c\u6210\u7acb\u3057\u3001\u30e1\u30c3\u30bb\u30fc\u30b8\u306e\u3084\u308a\u53d6\u308a\u304c\u3067\u304d\u307e\u3059\u3002\n\n\u3067\u304d\u308b\u3053\u3068:\n\n* \u30e6\u30fc\u30b6\u30fc\u540d\u3068\u30d1\u30b9\u30ef\u30fc\u30c9\u3067\u767b\u9332\u30fb\u30ed\u30b0\u30a4\u30f3\n* \u5e74\u9f62\u3068\u6027\u5225\u3067\u76f8\u624b\u3092\u7d5e\u308a\u8fbc\u3080\n* \u30ab\u30fc\u30c9\u3092\u3081\u304f\u308b\u611f\u899a\u3067\u76f8\u624b\u3092\u898b\u3066\u3044\u304f\n* \u30d7\u30ed\u30d5\u30a3\u30fc\u30eb\u5199\u771f\u3092 6 \u679a\u307e\u3067\u767b\u9332 (\u7aef\u672b\u3067\u7e2e\u5c0f\u3057\u3066\u304b\u3089\u9001\u308a\u307e\u3059)\n* \u30de\u30c3\u30c1\u3057\u305f\u76f8\u624b\u3068\u306e\u30e1\u30c3\u30bb\u30fc\u30b8\n\n\u3053\u306e\u30a2\u30d7\u30ea\u306b\u3064\u3044\u3066:\n\n* **\u672c\u4eba\u78ba\u8a8d (KYC) \u306f\u3042\u308a\u307e\u305b\u3093\u3002** \u76f8\u624b\u304c\u540d\u4e57\u3063\u3066\u3044\u308b\u3068\u304a\u308a\u306e\u4eba\u7269\u3067\u3042\u308b\n  \u4fdd\u8a3c\u306f\u3042\u308a\u307e\u305b\u3093\u3002\n* **\u767b\u9332\u3057\u305f\u5199\u771f\u306f\u4f5c\u8005\u306e\u30b5\u30fc\u30d0\u306b\u4fdd\u5b58\u3055\u308c\u307e\u3059\u3002** \u5199\u771f\u3092 1 \u679a\u3082\n  \u767b\u9332\u3057\u3066\u3044\u306a\u3044\u5834\u5408\u306f\u3001\u5229\u7528\u8005 ID \u304b\u3089\u751f\u6210\u3057\u305f\u56f3\u5f62\u304c\u4ee3\u308f\u308a\u306b\u51fa\u307e\u3059\u3002\n* **\u4f5c\u8005\u304c\u500b\u4eba\u3067\u904b\u7528\u3057\u3066\u3044\u308b\u30b5\u30fc\u30d0\u304c\u505c\u6b62\u3057\u3066\u3044\u308b\u3068\u4f7f\u3048\u307e\u305b\u3093\u3002**\n  \u30a2\u30ab\u30a6\u30f3\u30c8\u3082\u30e1\u30c3\u30bb\u30fc\u30b8\u3082\u305d\u306e\u30b5\u30fc\u30d0\u306b\u3057\u304b\u306a\u3044\u305f\u3081\u3067\u3059\u3002",
       "issueTracker": "https://github.com/pad01g/matching-frontend/issues",
       "license": "MIT",
@@ -29,7 +29,7 @@
       "summary": "\u6761\u4ef6\u306e\u5408\u3046\u76f8\u624b\u3092\u63a2\u3057\u3066\u3001\u30de\u30c3\u30c1\u3057\u305f\u3089\u8a71\u305b\u308b",
       "added": 1789800429000,
       "packageName": "io.github.pad01g.matching",
-      "lastUpdated": 1789800429000,
+      "lastUpdated": 1789823444000,
       "localized": {
         "en-US": {
           "featureGraphic": "featureGraphic_QsUPOZmaSDnxF1zXqosNV0ed7WuVmvefcMH5Ud-AcEw=.png",
@@ -45,7 +45,7 @@
       "categories": [
         "Games"
       ],
-      "suggestedVersionCode": "300",
+      "suggestedVersionCode": "301",
       "description": "\u90e8\u5c4b\u30b3\u30fc\u30c9\u3092\u76f8\u624b\u306b\u4f1d\u3048\u308b\u3060\u3051\u3067\u5bfe\u5c40\u3067\u304d\u308b\u30c1\u30a7\u30b9\u3067\u3059\u3002\n\u5bfe\u5c40\u4e2d\u306e\u6307\u3057\u624b\u306f\u3001\u3067\u304d\u308b\u304b\u304e\u308a\u7aef\u672b\u3069\u3046\u3057\u304c\u76f4\u63a5\u3084\u308a\u53d6\u308a\u3057\u307e\u3059\n(WebRTC \u306e DataChannel)\u3002\n\n\u76f4\u63a5\u3064\u306a\u3052\u306a\u3044\u56de\u7dda\u3067\u306f\u4e2d\u7d99\u30b5\u30fc\u30d0\u3092\u631f\u307f\u3001\u305d\u308c\u3082\u99c4\u76ee\u306a\u3068\u304d\u306f\n\u5f85\u3061\u5408\u308f\u305b\u30b5\u30fc\u30d0\u304c\u6307\u3057\u624b\u3092\u4e2d\u7d99\u3057\u307e\u3059\u3002\n\u3044\u307e\u3069\u306e\u7d4c\u8def\u3067\u7e4b\u304c\u3063\u3066\u3044\u308b\u304b\u306f\u5bfe\u5c40\u753b\u9762\u306b\u8868\u793a\u3055\u308c\u307e\u3059\u3002\n\n\u540c\u3058\u7aef\u672b\u3067\u306e 2 \u4eba\u5bfe\u6226\u3001\u8ab2\u984c\u5c40\u9762\u3001\u5b9a\u8de1\u306e\u95b2\u89a7\u306f\u30aa\u30d5\u30e9\u30a4\u30f3\u3067\u3082\u4f7f\u3048\u307e\u3059\u3002\n\n\u30a2\u30ab\u30a6\u30f3\u30c8\u767b\u9332\u306f\u3042\u308a\u307e\u305b\u3093\u3002\u68cb\u8b5c\u3068\u8a2d\u5b9a\u306f\u7aef\u672b\u306e\u4e2d\u306b\u3060\u3051\u4fdd\u5b58\u3055\u308c\u307e\u3059\u3002\n\n\u6ce8\u610f: \u7aef\u672b\u3069\u3046\u3057\u3092\u76f4\u63a5\u3064\u306a\u3050\u65b9\u5f0f\u306e\u6027\u8cea\u4e0a\u3001\u5bfe\u6226\u76f8\u624b\u306b\u3042\u306a\u305f\u306e\nIP \u30a2\u30c9\u30ec\u30b9\u304c\u898b\u3048\u307e\u3059\u3002\u6c17\u306b\u306a\u308b\u5834\u5408\u306f\u8a2d\u5b9a\u304b\u3089\n\u300c\u76f8\u624b\u306b IP \u30a2\u30c9\u30ec\u30b9\u3092\u898b\u305b\u306a\u3044\u300d\u3092\u6709\u52b9\u306b\u3059\u308b\u3068\u3001\n\u5e38\u306b\u4e2d\u7d99\u30b5\u30fc\u30d0\u3092\u7d4c\u7531\u3059\u308b\u3088\u3046\u306b\u306a\u308a\u307e\u3059\u3002",
       "issueTracker": "https://github.com/pad01g/chess-frontend/issues",
       "license": "MIT",
@@ -54,7 +54,7 @@
       "summary": "\u7aef\u672b\u3069\u3046\u3057\u304c\u76f4\u63a5\u3064\u306a\u304c\u3063\u3066\u6307\u3059\u30c1\u30a7\u30b9",
       "added": 1789654678000,
       "packageName": "io.github.pad01g.p2pchess",
-      "lastUpdated": 1789800025000,
+      "lastUpdated": 1789823445000,
       "localized": {
         "en-US": {
           "featureGraphic": "featureGraphic_mF7XOANEdVjnuvY-ae1IAUfRZcEG35jJsWUNfDXt98M=.png",
@@ -67,7 +67,7 @@
       "categories": [
         "Science & Education"
       ],
-      "suggestedVersionCode": "1",
+      "suggestedVersionCode": "101",
       "description": "\u5358\u8a9e\u306b\u5bfe\u3057\u30664\u629e\u306e\u30af\u30a4\u30ba\u304c\u51fa\u984c\u3055\u308c\u307e\u3059\u3002\n\u9593\u9055\u3048\u305f\u5358\u8a9e\u3060\u3051\u304c\u7aef\u672b\u306e\u30ed\u30fc\u30ab\u30eb\u306b\u8a18\u9332\u3055\u308c\u3001\u3042\u3068\u304b\u3089\u307e\u3068\u3081\u3066\u5fa9\u7fd2\u3067\u304d\u307e\u3059\u3002\n\u5fa9\u7fd2\u3067\u6b63\u89e3\u3059\u308b\u3068\u3001\u305d\u306e\u5358\u8a9e\u306f\u8a18\u9332\u304b\u3089\u6d88\u3048\u307e\u3059\u3002\n\n\u5b66\u7fd2\u306e\u8a18\u9332\u304c\u7aef\u672b\u306e\u5916\u306b\u51fa\u308b\u3053\u3068\u306f\u3042\u308a\u307e\u305b\u3093\u3002\n\u5358\u8a9e\u306e\u30c7\u30fc\u30bf\u306f\u8aad\u307f\u53d6\u308a\u5c02\u7528\u306e\u9759\u7684\u306a\u914d\u4fe1\u5143\u304b\u3089\u53d6\u5f97\u3057\u307e\u3059\u3002",
       "issueTracker": "https://github.com/pad01g/wordquiz-frontend/issues",
       "license": "MIT",
@@ -76,7 +76,7 @@
       "summary": "4\u629e\u30af\u30a4\u30ba\u3067\u5358\u8a9e\u3092\u899a\u3048\u308b",
       "added": 1789607125000,
       "packageName": "io.github.pad01g.wordquiz",
-      "lastUpdated": 1789607125000,
+      "lastUpdated": 1789823445000,
       "localized": {
         "en-US": {
           "featureGraphic": "featureGraphic_EnODbG3KtoUpY5UgG9zn08sinhUg0VmXNZpbV0JeDAc=.png",
@@ -180,6 +180,46 @@
     ],
     "io.github.pad01g.matching": [
       {
+        "added": 1789823444000,
+        "apkName": "io.github.pad01g.matching_300.apk",
+        "hash": "a83479b2932425dd7f646445e6d03ddc6bda8fe5efaf4f9145277c260b21794b",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "packageName": "io.github.pad01g.matching",
+        "sig": "af1fec7351e95c429e7a038e0669ca5d",
+        "signer": "69de51426bc600ff435bc5756889037ae094290a577bbe0f03d2e5efdb855dd3",
+        "size": 4599409,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "io.github.pad01g.matching.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 300,
+        "versionName": "0.3.0"
+      },
+      {
         "added": 1789800429000,
         "apkName": "io.github.pad01g.matching_100.apk",
         "hash": "6d7559d8c62726ebc96bc208568cc8f666a9f249d2271cb234cfb6f4d6af54b6",
@@ -221,6 +261,46 @@
       }
     ],
     "io.github.pad01g.p2pchess": [
+      {
+        "added": 1789823445000,
+        "apkName": "io.github.pad01g.p2pchess_301.apk",
+        "hash": "577f46765a9f46ad2654cdd32a74cc7255de661c8291a8ae31ee030ebd1686a5",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "packageName": "io.github.pad01g.p2pchess",
+        "sig": "91b53de0de86eaf3d61d7c5cb7ea8c19",
+        "signer": "2c3e1def26ea6342ca658fc1d4e6452d802cc7969c7dffd1f03963333d20f543",
+        "size": 4538813,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "io.github.pad01g.p2pchess.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 301,
+        "versionName": "0.3.1"
+      },
       {
         "added": 1789800025000,
         "apkName": "io.github.pad01g.p2pchess_300.apk",
@@ -545,6 +625,46 @@
       }
     ],
     "io.github.pad01g.wordquiz": [
+      {
+        "added": 1789823445000,
+        "apkName": "io.github.pad01g.wordquiz_101.apk",
+        "hash": "90d45dcf77b3c9c1c7c7cc4e40ce97d7d6d29927e353f529937b345ab3948157",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "packageName": "io.github.pad01g.wordquiz",
+        "sig": "f2b67930cc9c21d2936fcda829f77117",
+        "signer": "ff72a3699017df2a94bfc913545bdeacf3d4da8014e3f2f3fa1dd90969aa2102",
+        "size": 4715294,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "io.github.pad01g.wordquiz.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 101,
+        "versionName": "0.1.1"
+      },
       {
         "added": 1789607125000,
         "apkName": "io.github.pad01g.wordquiz_1.apk",
