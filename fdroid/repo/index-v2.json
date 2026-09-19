@@ -4,7 +4,7 @@
       "en-US": "pad01g's apps"
     },
     "description": {
-      "en-US": "pad01g が作ったアプリを配布するための自前リポジトリです。\nリポジトリを一度追加しておけば、あとから増えたアプリも一覧に出ます。\n\n収録アプリ:\n- WordQuiz — 4択クイズで単語を覚え、間違えた単語だけを復習する\n- P2P Chess — 端末どうしが直接つながって対局するチェス"
+      "en-US": "pad01g が個人で作ったアプリを配布するための自前リポジトリです。\n一度追加しておけば、あとから増えたアプリも自動で一覧に出ます。\n\nどれも広告と利用者追跡を入れていません。\n外部のサーバを使うものには、その旨をアプリごとに明記しています。"
     },
     "icon": {
       "en-US": {
@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1789809388000,
+    "timestamp": 1789819461000,
     "categories": {
       "Connectivity": {
         "name": {
