@@ -72,9 +72,38 @@ chmod 600 "${ROOT}/fdroid/fdroid.keystore" "${ROOT}/fdroid/config.yml"
 # docker の --env-file に渡す。
 #
 # -c は config.yml を作り直してしまう。既存の設定を活かすので付けない。
-docker run --rm -i \
-  --env-file "${SECRETS}/passwords.env" \
-  -v "${ROOT}/fdroid:/repo" \
-  -w /repo \
-  "${IMAGE}" \
-  bash -lc 'fdroid update --pretty'
+update() {
+  docker run --rm -i \
+    --env-file "${SECRETS}/passwords.env" \
+    -v "${ROOT}/fdroid:/repo" \
+    -w /repo \
+    "${IMAGE}" \
+    bash -lc 'fdroid update --pretty'
+}
+
+# 索引が指す画像が本当に置いてあるかを確かめる。
+# ホストに Node を入れない方針なので、これも Docker の中で走らせる。
+verify() {
+  docker run --rm -i \
+    -v "${ROOT}:/repo" \
+    -w /repo \
+    node:24-bookworm-slim \
+    node --experimental-strip-types scripts/verify-index.ts fdroid/repo
+}
+
+# ## なぜ 2 回走らせることがあるのか
+#
+# `fdroid update` は metadata に置いた PNG を repo へ複製するときに
+# **作り直す**ので、複製後のバイト列が変わり、内容から決まるハッシュ付きの
+# 名前も変わる。そのため**画像を差し替えた直後の 1 回目だけ**、
+# 索引が新しい名前を指しているのに実体が消されている状態になる。
+# 2 回目で揃う。
+#
+# 揃うまで黙って繰り返すのではなく、**2 回で駄目なら落とす**。
+# それ以上続くのは別の原因なので、気付かずに公開する方が困る。
+update
+if ! verify; then
+  echo "==> 索引と実体が食い違っているので、もう一度 fdroid update を走らせます" >&2
+  update
+  verify
+fi
