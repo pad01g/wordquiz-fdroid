@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1789800026000,
+    "timestamp": 1789800435000,
     "version": 20002,
     "name": "pad01g's apps",
     "icon": "icon.png",
@@ -12,6 +12,25 @@
     "uninstall": []
   },
   "apps": [
+    {
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
+      "authorName": "pad01g",
+      "categories": [
+        "Connectivity"
+      ],
+      "suggestedVersionCode": "100",
+      "description": "\u3053\u308c\u306f **\u52d5\u4f5c\u78ba\u8a8d\u7528\u306e\u30b5\u30f3\u30d7\u30eb\u30a2\u30d7\u30ea** \u3067\u3059\u3002\n\u5b9f\u969b\u306e\u30de\u30c3\u30c1\u30f3\u30b0\u30b5\u30fc\u30d3\u30b9\u3068\u3057\u3066\u4f7f\u3046\u305f\u3081\u306b\u4f5c\u3089\u308c\u305f\u3082\u306e\u3067\u306f\u3042\u308a\u307e\u305b\u3093\u3002\n\n\u81ea\u5b85\u306b\u7f6e\u3044\u305f\u30b5\u30fc\u30d0\u3092\u8907\u6570\u306e\u30a2\u30d7\u30ea\u304b\u3089\u4f7f\u3044\u56de\u305b\u308b\u3053\u3068\u3001\u305d\u306e\u30b5\u30fc\u30d0\u3092\u4ecb\u3057\u3066\n\u5229\u7528\u8005\u3069\u3046\u3057\u304c\u3084\u308a\u53d6\u308a\u3067\u304d\u308b\u3053\u3068\u3092\u78ba\u304b\u3081\u308b\u305f\u3081\u306b\u7f6e\u3044\u3066\u3044\u307e\u3059\u3002\n\n\u3067\u304d\u308b\u3053\u3068:\n\n* \u30e6\u30fc\u30b6\u30fc\u540d\u3068\u30d1\u30b9\u30ef\u30fc\u30c9\u3067\u767b\u9332\u30fb\u30ed\u30b0\u30a4\u30f3\n* \u6761\u4ef6\u306b\u5408\u3046\u76f8\u624b\u3092 1 \u4eba\u305a\u3064\u8868\u793a\u3057\u3066\u300c\u3044\u3044\u306d\u300d\u304b\u300c\u30d1\u30b9\u300d\u3092\u9078\u3076\n* \u304a\u4e92\u3044\u304c\u300c\u3044\u3044\u306d\u300d\u3057\u305f\u3089\u30de\u30c3\u30c1\u304c\u6210\u7acb\u3057\u3001\u30e1\u30c3\u30bb\u30fc\u30b8\u3092\u3084\u308a\u53d6\u308a\u3067\u304d\u308b\n\n\u91cd\u8981\u306a\u6ce8\u610f:\n\n* **\u672c\u4eba\u78ba\u8a8d (KYC) \u306f\u5b9f\u88c5\u3057\u3066\u3044\u307e\u305b\u3093\u3002** \u52d5\u4f5c\u78ba\u8a8d\u306e\u90aa\u9b54\u306b\u306a\u308b\u305f\u3081\u3067\u3059\u3002\n  \u76f8\u624b\u304c\u540d\u4e57\u3063\u3066\u3044\u308b\u3068\u304a\u308a\u306e\u4eba\u7269\u3067\u3042\u308b\u4fdd\u8a3c\u306f\u4e00\u5207\u3042\u308a\u307e\u305b\u3093\u3002\n* **\u5199\u771f\u306f\u6271\u3044\u307e\u305b\u3093\u3002** \u30d7\u30ed\u30d5\u30a3\u30fc\u30eb\u306e\u30a2\u30a4\u30b3\u30f3\u306f\u5229\u7528\u8005 ID \u304b\u3089\n  \u751f\u6210\u3057\u305f\u56f3\u5f62\u3067\u3001\u753b\u50cf\u306f\u3069\u3053\u306b\u3082\u4fdd\u5b58\u3055\u308c\u307e\u305b\u3093\u3002\n* **\u4f5c\u8005\u306e\u30b5\u30fc\u30d0\u304c\u505c\u6b62\u3057\u3066\u3044\u308b\u3068\u30a2\u30d7\u30ea\u306f\u4e00\u5207\u4f7f\u3048\u307e\u305b\u3093\u3002**\n  \u30a2\u30ab\u30a6\u30f3\u30c8\u3082\u30e1\u30c3\u30bb\u30fc\u30b8\u3082\u305d\u306e\u30b5\u30fc\u30d0\u306b\u3057\u304b\u306a\u3044\u305f\u3081\u3067\u3059\u3002\n* \u52d5\u4f5c\u78ba\u8a8d\u7528\u306e\u67b6\u7a7a\u306e\u30d7\u30ed\u30d5\u30a3\u30fc\u30eb\u304c\u3042\u3089\u304b\u3058\u3081\u5165\u3063\u3066\u3044\u307e\u3059\u3002\n\n\u5b9f\u5728\u306e\u76f8\u624b\u3068\u306e\u51fa\u4f1a\u3044\u3092\u76ee\u7684\u306b\u4f7f\u308f\u306a\u3044\u3067\u304f\u3060\u3055\u3044\u3002",
+      "issueTracker": "https://github.com/pad01g/matching-frontend/issues",
+      "license": "MIT",
+      "name": "Matching Example",
+      "sourceCode": "https://github.com/pad01g/matching-frontend",
+      "summary": "\u52d5\u4f5c\u78ba\u8a8d\u7528\u306e\u30b5\u30f3\u30d7\u30eb\u3002\u5b9f\u969b\u306e\u30b5\u30fc\u30d3\u30b9\u3067\u306f\u3042\u308a\u307e\u305b\u3093",
+      "added": 1789800429000,
+      "packageName": "io.github.pad01g.matching",
+      "lastUpdated": 1789800429000
+    },
     {
       "antiFeatures": [
         "NonFreeNet"
@@ -49,6 +68,48 @@
     }
   ],
   "packages": {
+    "io.github.pad01g.matching": [
+      {
+        "added": 1789800429000,
+        "apkName": "io.github.pad01g.matching_100.apk",
+        "hash": "6d7559d8c62726ebc96bc208568cc8f666a9f249d2271cb234cfb6f4d6af54b6",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "packageName": "io.github.pad01g.matching",
+        "sig": "af1fec7351e95c429e7a038e0669ca5d",
+        "signer": "69de51426bc600ff435bc5756889037ae094290a577bbe0f03d2e5efdb855dd3",
+        "size": 4466830,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "io.github.pad01g.matching.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 100,
+        "versionName": "0.1.0"
+      }
+    ],
     "io.github.pad01g.p2pchess": [
       {
         "added": 1789800025000,

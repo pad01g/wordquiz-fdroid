@@ -14,8 +14,13 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1789800026000,
+    "timestamp": 1789800435000,
     "categories": {
+      "Connectivity": {
+        "name": {
+          "en-US": "Connectivity"
+        }
+      },
       "Games": {
         "name": {
           "en-US": "Games"
@@ -29,6 +34,77 @@
     }
   },
   "packages": {
+    "io.github.pad01g.matching": {
+      "metadata": {
+        "added": 1789800429000,
+        "categories": [
+          "Connectivity"
+        ],
+        "issueTracker": "https://github.com/pad01g/matching-frontend/issues",
+        "lastUpdated": 1789800429000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/pad01g/matching-frontend",
+        "authorName": "pad01g",
+        "name": {
+          "en-US": "Matching Example"
+        },
+        "summary": {
+          "en-US": "動作確認用のサンプル。実際のサービスではありません"
+        },
+        "description": {
+          "en-US": "これは **動作確認用のサンプルアプリ** です。\n実際のマッチングサービスとして使うために作られたものではありません。\n\n自宅に置いたサーバを複数のアプリから使い回せること、そのサーバを介して\n利用者どうしがやり取りできることを確かめるために置いています。\n\nできること:\n\n* ユーザー名とパスワードで登録・ログイン\n* 条件に合う相手を 1 人ずつ表示して「いいね」か「パス」を選ぶ\n* お互いが「いいね」したらマッチが成立し、メッセージをやり取りできる\n\n重要な注意:\n\n* **本人確認 (KYC) は実装していません。** 動作確認の邪魔になるためです。\n  相手が名乗っているとおりの人物である保証は一切ありません。\n* **写真は扱いません。** プロフィールのアイコンは利用者 ID から\n  生成した図形で、画像はどこにも保存されません。\n* **作者のサーバが停止しているとアプリは一切使えません。**\n  アカウントもメッセージもそのサーバにしかないためです。\n* 動作確認用の架空のプロフィールがあらかじめ入っています。\n\n実在の相手との出会いを目的に使わないでください。"
+        },
+        "preferredSigner": "69de51426bc600ff435bc5756889037ae094290a577bbe0f03d2e5efdb855dd3"
+      },
+      "versions": {
+        "6d7559d8c62726ebc96bc208568cc8f666a9f249d2271cb234cfb6f4d6af54b6": {
+          "added": 1789800429000,
+          "file": {
+            "name": "/io.github.pad01g.matching_100.apk",
+            "sha256": "6d7559d8c62726ebc96bc208568cc8f666a9f249d2271cb234cfb6f4d6af54b6",
+            "size": 4466830
+          },
+          "manifest": {
+            "versionName": "0.1.0",
+            "versionCode": 100,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "69de51426bc600ff435bc5756889037ae094290a577bbe0f03d2e5efdb855dd3"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "io.github.pad01g.matching.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {
+              "en-US": "このアプリは、作者が運用するソース非公開のサーバが無いと\n**一切動きません**。アカウント・プロフィール・マッチ・メッセージは\nすべてそのサーバに保存され、端末の中だけで完結する機能はありません。\n\nサーバが停止していればログインもできません。\nまた、そのサーバのソースコードは公開されていないため、\nあなたのデータがどう扱われるかを利用者が検証することはできません。\n\nこれは動作確認用のサンプルなので、実際の個人情報を入れないでください。"
+            }
+          }
+        }
+      }
+    },
     "io.github.pad01g.p2pchess": {
       "metadata": {
         "added": 1789654678000,
