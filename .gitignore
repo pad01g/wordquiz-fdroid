@@ -8,3 +8,7 @@ fdroid/unsigned/
 
 # fdroid update が毎回書き出す実行状況 (差分ノイズになるだけ)
 fdroid/repo/status/
+
+# index 署名鍵。scripts/fdroid-update.sh が実行中だけ置く。
+# これをコミットするとリポジトリを作り直すことになる
+fdroid/fdroid.keystore
