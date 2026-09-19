@@ -3,7 +3,7 @@
     "description": {
       "en-US": "pad01g が個人で作ったアプリを配布するための自前リポジトリです。\n一度追加しておけば、あとから増えたアプリも自動で一覧に出ます。\n\nどれも広告と利用者追跡を入れていません。\n外部のサーバを使うものには、その旨をアプリごとに明記しています。"
     },
-    "timestamp": 1789824634000
+    "timestamp": 1789827419000
   },
   "packages": {
     "io.github.pad01g.matching": {
@@ -119,7 +119,7 @@
           "Science & Education"
         ],
         "issueTracker": "https://github.com/pad01g/salesrp-frontend/issues",
-        "lastUpdated": 1789824634000,
+        "lastUpdated": 1789827418000,
         "license": "MIT",
         "sourceCode": "https://github.com/pad01g/salesrp-frontend",
         "featureGraphic": {
@@ -149,6 +149,52 @@
         "preferredSigner": "608a3f7434db33dab258ef118aef4844c380ccac9c52f10711a6db2f18c000ad"
       },
       "versions": {
+        "457f5ea63d1950f4a8959c50512b81ea0c080436d3bef94bad2adfc2e1d71f58": {
+          "added": 1789827418000,
+          "file": {
+            "name": "/io.github.pad01g.salesrp_101.apk",
+            "sha256": "457f5ea63d1950f4a8959c50512b81ea0c080436d3bef94bad2adfc2e1d71f58",
+            "size": 4631972
+          },
+          "manifest": {
+            "versionName": "0.1.1",
+            "versionCode": 101,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "608a3f7434db33dab258ef118aef4844c380ccac9c52f10711a6db2f18c000ad"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "io.github.pad01g.salesrp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {
+              "en-US": "ユーザー名とパスワードを登録した場合にかぎり、進み具合の保管に\n作者が運用するソース非公開のサーバを使います。\n\n**登録しなければ通信は一切しません。** 商談のデータはアプリに\n同梱されていて、判定も端末の中で終わるため、サーバが止まっていても、\nそもそもインターネットに繋がっていなくても、すべての商談を\n最後まで遊べます。サーバが預かるのは「どの商談をどう終えたか」だけです。\n\nただし、そのサーバのソースコードは公開されていないため、\n登録した場合にその記録がどう扱われるかを利用者が検証することはできません。"
+            }
+          }
+        },
         "a1a714e700280f239493ed9be213e7fd93d0ff9c6c5d5ecf72fad9da2b48f4e7": {
           "added": 1789824634000,
           "file": {
