@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1789800435000,
+    "timestamp": 1789807718000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -44,15 +44,29 @@
         "lastUpdated": 1789800429000,
         "license": "MIT",
         "sourceCode": "https://github.com/pad01g/matching-frontend",
+        "featureGraphic": {
+          "en-US": {
+            "name": "/io.github.pad01g.matching/en-US/featureGraphic_QsUPOZmaSDnxF1zXqosNV0ed7WuVmvefcMH5Ud-AcEw=.png",
+            "sha256": "42c50f39999a4839f1175cd7aa8b0d57479ded6b959af79f70c1f951df80704c",
+            "size": 43090
+          }
+        },
         "authorName": "pad01g",
         "name": {
-          "en-US": "Matching Example"
+          "en-US": "Matching"
         },
         "summary": {
-          "en-US": "動作確認用のサンプル。実際のサービスではありません"
+          "en-US": "条件の合う相手を探して、マッチしたら話せる"
         },
         "description": {
-          "en-US": "これは **動作確認用のサンプルアプリ** です。\n実際のマッチングサービスとして使うために作られたものではありません。\n\n自宅に置いたサーバを複数のアプリから使い回せること、そのサーバを介して\n利用者どうしがやり取りできることを確かめるために置いています。\n\nできること:\n\n* ユーザー名とパスワードで登録・ログイン\n* 条件に合う相手を 1 人ずつ表示して「いいね」か「パス」を選ぶ\n* お互いが「いいね」したらマッチが成立し、メッセージをやり取りできる\n\n重要な注意:\n\n* **本人確認 (KYC) は実装していません。** 動作確認の邪魔になるためです。\n  相手が名乗っているとおりの人物である保証は一切ありません。\n* **写真は扱いません。** プロフィールのアイコンは利用者 ID から\n  生成した図形で、画像はどこにも保存されません。\n* **作者のサーバが停止しているとアプリは一切使えません。**\n  アカウントもメッセージもそのサーバにしかないためです。\n* 動作確認用の架空のプロフィールがあらかじめ入っています。\n\n実在の相手との出会いを目的に使わないでください。"
+          "en-US": "条件の合う相手を 1 人ずつ表示し、「いいね」か「パス」を選びます。\nお互いが「いいね」したらマッチが成立し、メッセージのやり取りができます。\n\nできること:\n\n* ユーザー名とパスワードで登録・ログイン\n* 年齢と性別で相手を絞り込む\n* カードをめくる感覚で相手を見ていく\n* プロフィール写真を 6 枚まで登録 (端末で縮小してから送ります)\n* マッチした相手とのメッセージ\n\nこのアプリについて:\n\n* **本人確認 (KYC) はありません。** 相手が名乗っているとおりの人物である\n  保証はありません。\n* **登録した写真は作者のサーバに保存されます。** 写真を 1 枚も\n  登録していない場合は、利用者 ID から生成した図形が代わりに出ます。\n* **作者が個人で運用しているサーバが停止していると使えません。**\n  アカウントもメッセージもそのサーバにしかないためです。"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/io.github.pad01g.matching/en-US/icon_lW2yfNn-yZVEwV9XgWRneEE8x2db8snbCMSQjVy_MAk=.png",
+            "sha256": "956db27cd9fec99544c15f5781646778413cc7675bf2c9db08c4908d5cbf3009",
+            "size": 15985
+          }
         },
         "preferredSigner": "69de51426bc600ff435bc5756889037ae094290a577bbe0f03d2e5efdb855dd3"
       },
@@ -99,7 +113,7 @@
           },
           "antiFeatures": {
             "NonFreeNet": {
-              "en-US": "このアプリは、作者が運用するソース非公開のサーバが無いと\n**一切動きません**。アカウント・プロフィール・マッチ・メッセージは\nすべてそのサーバに保存され、端末の中だけで完結する機能はありません。\n\nサーバが停止していればログインもできません。\nまた、そのサーバのソースコードは公開されていないため、\nあなたのデータがどう扱われるかを利用者が検証することはできません。\n\nこれは動作確認用のサンプルなので、実際の個人情報を入れないでください。"
+              "en-US": "このアプリは、作者が運用するソース非公開のサーバが無いと\n**一切動きません**。アカウント・プロフィール・写真・マッチ・\nメッセージはすべてそのサーバに保存され、端末の中だけで完結する\n機能はありません。\n\nサーバが停止していればログインもできません。\nまた、そのサーバのソースコードは公開されていないため、\nあなたのデータがどう扱われるかを利用者が検証することはできません。"
             }
           }
         }
@@ -115,6 +129,13 @@
         "lastUpdated": 1789800025000,
         "license": "MIT",
         "sourceCode": "https://github.com/pad01g/chess-frontend",
+        "featureGraphic": {
+          "en-US": {
+            "name": "/io.github.pad01g.p2pchess/en-US/featureGraphic_mF7XOANEdVjnuvY-ae1IAUfRZcEG35jJsWUNfDXt98M=.png",
+            "sha256": "985ed73803447558e7baf63e69ed480147d165c106df98c9b1650d7c35edf7c3",
+            "size": 16002
+          }
+        },
         "authorName": "pad01g",
         "name": {
           "en-US": "P2P Chess"
@@ -124,6 +145,13 @@
         },
         "description": {
           "en-US": "部屋コードを相手に伝えるだけで対局できるチェスです。\n対局中の指し手は、できるかぎり端末どうしが直接やり取りします\n(WebRTC の DataChannel)。\n\n直接つなげない回線では中継サーバを挟み、それも駄目なときは\n待ち合わせサーバが指し手を中継します。\nいまどの経路で繋がっているかは対局画面に表示されます。\n\n同じ端末での 2 人対戦、課題局面、定跡の閲覧はオフラインでも使えます。\n\nアカウント登録はありません。棋譜と設定は端末の中にだけ保存されます。\n\n注意: 端末どうしを直接つなぐ方式の性質上、対戦相手にあなたの\nIP アドレスが見えます。気になる場合は設定から\n「相手に IP アドレスを見せない」を有効にすると、\n常に中継サーバを経由するようになります。"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/io.github.pad01g.p2pchess/en-US/icon_ptSyocSnyGwj6W5SMZUzyzZgZazq_ddJj45wsAKumuU=.png",
+            "sha256": "a6d4b2a1c4a7c86c23e96e52319533cb366065aceafdd7498f8e70b002ae9ae5",
+            "size": 6791
+          }
         },
         "preferredSigner": "2c3e1def26ea6342ca658fc1d4e6452d802cc7969c7dffd1f03963333d20f543"
       },
@@ -462,6 +490,13 @@
         "lastUpdated": 1789607125000,
         "license": "MIT",
         "sourceCode": "https://github.com/pad01g/wordquiz-frontend",
+        "featureGraphic": {
+          "en-US": {
+            "name": "/io.github.pad01g.wordquiz/en-US/featureGraphic_EnODbG3KtoUpY5UgG9zn08sinhUg0VmXNZpbV0JeDAc=.png",
+            "sha256": "1273836c6dcab685296395201bdce7d3cb229e1520d15997359a5b57425e0c07",
+            "size": 54265
+          }
+        },
         "authorName": "pad01g",
         "name": {
           "en-US": "WordQuiz"
@@ -471,6 +506,13 @@
         },
         "description": {
           "en-US": "単語に対して4択のクイズが出題されます。\n間違えた単語だけが端末のローカルに記録され、あとからまとめて復習できます。\n復習で正解すると、その単語は記録から消えます。\n\n学習の記録が端末の外に出ることはありません。\n単語のデータは読み取り専用の静的な配信元から取得します。"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/io.github.pad01g.wordquiz/en-US/icon_8NGz2o-sni3FexPMfCFfrwNb3TYkKRUYc9kYQicH72o=.png",
+            "sha256": "f0d1b3da8fac9e2dc57b13cc7c215faf035bdd362429151873d918422707ef6a",
+            "size": 18314
+          }
         },
         "preferredSigner": "ff72a3699017df2a94bfc913545bdeacf3d4da8014e3f2f3fa1dd90969aa2102"
       },
