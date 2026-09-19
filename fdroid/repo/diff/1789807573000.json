@@ -1,0 +1,99 @@
+{
+  "repo": {
+    "timestamp": 1789808655000,
+    "categories": {
+      "Sports & Health": {
+        "name": {
+          "en-US": "Sports & Health"
+        }
+      }
+    }
+  },
+  "packages": {
+    "io.github.pad01g.sodachi": {
+      "metadata": {
+        "added": 1789808115000,
+        "categories": [
+          "Sports & Health"
+        ],
+        "issueTracker": "https://github.com/pad01g/sodachi-frontend/issues",
+        "lastUpdated": 1789808115000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/pad01g/sodachi-frontend",
+        "featureGraphic": {
+          "en-US": {
+            "name": "/io.github.pad01g.sodachi/en-US/featureGraphic_rwUf_pt52Pbr8eOz4eU6GR_daEe1Hn8J8AKJqlq_VFM=.png",
+            "sha256": "af051ffe9b79d8f6ebf1e3b3e1e53a191fdd6847b51e7f09f00289aa5abf5453",
+            "size": 33521
+          }
+        },
+        "authorName": "pad01g",
+        "name": {
+          "en-US": "そだちログ"
+        },
+        "summary": {
+          "en-US": "こどもの記録を家族で共有する育児記録"
+        },
+        "description": {
+          "en-US": "授乳・おむつ・ねんねなど、こどもの記録をその場で残します。\n招待コードで家族に入ると、誰かが付けた記録が他の家族の端末にもすぐ出ます。\n\nできること:\n\n* 授乳・おむつ・ねんね・からだの世話など 18 種類の記録\n* 家族を作り、6 文字の招待コードで迎え入れる\n* こどもごとのタイムラインと、日ごとのまとめ\n* 家族の誰かが記録すると、開いている端末にすぐ反映される\n\nオフラインでも記録できます:\n\n夜中の授乳や外出先で圏外でも、まず端末に保存します。\n繋がったときにまとめて送り、家族の他の端末へ配られます。\n記録の ID は端末側で作るので、同じ記録が二重に入ることはありません。\n\nこのアプリについて:\n\n* **写真は扱いません。** こどものアイコンは登録時に決まる種から\n  描いた図形で、画像はどこにも保存されません。\n* **アカウントはユーザー名とパスワードだけです。** メールアドレスも\n  電話番号も訊きません。\n* **作者が個人で運用しているサーバに記録が保存されます。**\n  家族で共有するためにはそのサーバが必要です。"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/io.github.pad01g.sodachi/en-US/icon_iELoBxN0ccfyvfTmNMlvD-QYJiXlKFgL4m8S2QRMeE4=.png",
+            "sha256": "8842e807137471c7f2bdf4e634c96f0fe4182625e528580be26f12d9044c784e",
+            "size": 15324
+          }
+        },
+        "preferredSigner": "62c3c3dab57f5774e8f04f55dcc13775a0103847d2c944a85fbab85ea7664c0a"
+      },
+      "versions": {
+        "1f1d205f83d96681c2a456938aaa7cbbb7fba5e62342628d8c854e88f300e47c": {
+          "added": 1789808115000,
+          "file": {
+            "name": "/io.github.pad01g.sodachi_100.apk",
+            "sha256": "1f1d205f83d96681c2a456938aaa7cbbb7fba5e62342628d8c854e88f300e47c",
+            "size": 4631887
+          },
+          "manifest": {
+            "versionName": "0.1.0",
+            "versionCode": 100,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "62c3c3dab57f5774e8f04f55dcc13775a0103847d2c944a85fbab85ea7664c0a"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "io.github.pad01g.sodachi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {
+              "en-US": "家族での共有に、作者が運用するソース非公開のサーバを使います。\nアカウント・家族・こども・記録はすべてそのサーバに保存されます。\n\n端末に貯めた記録を見ることはサーバが止まっていてもできますが、\nログインも、家族への参加も、他の端末との同期もできません。\nまた、そのサーバのソースコードは公開されていないため、\nあなたの記録がどう扱われるかを利用者が検証することはできません。"
+            }
+          }
+        }
+      }
+    }
+  }
+}
