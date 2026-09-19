@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1789823446000,
+    "timestamp": 1789824634000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -662,6 +662,91 @@
           "antiFeatures": {
             "NonFreeNet": {
               "en-US": "対局相手との待ち合わせ (シグナリング) と NAT 越えの補助に、\n作者が運用するソース非公開のサーバを使います。\n対局そのもののデータは、可能なかぎり端末どうしで直接やり取りします。\nオフラインの機能 (同じ端末での 2 人対戦、課題局面、定跡) は\nサーバを使いません。"
+            }
+          }
+        }
+      }
+    },
+    "io.github.pad01g.salesrp": {
+      "metadata": {
+        "added": 1789824634000,
+        "categories": [
+          "Science & Education"
+        ],
+        "issueTracker": "https://github.com/pad01g/salesrp-frontend/issues",
+        "lastUpdated": 1789824634000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/pad01g/salesrp-frontend",
+        "featureGraphic": {
+          "en-US": {
+            "name": "/io.github.pad01g.salesrp/en-US/featureGraphic_xaOtzu09oKRRm8ElBf2LBzX85T71u9m86cs6fBQu0xo=.png",
+            "sha256": "c5a3adceed3da0a4519bc12505fd8b0735fce53ef5bbd9bce9cb3a7c142ed31a",
+            "size": 33956
+          }
+        },
+        "authorName": "pad01g",
+        "name": {
+          "en-US": "セールスロープレ"
+        },
+        "summary": {
+          "en-US": "商談の場面で何と言うかを選ぶ、営業の練習"
+        },
+        "description": {
+          "en-US": "商談の場面が出て、何と言うかを選びます。\n相手の心証や警戒心は見えないまま動き、最後に受注か失注かが決まります。\n\nできること:\n\n* 価格交渉・初回訪問・クレーム対応・社内稟議など、型の違う商談\n* 相手の返事は、それまでのやりとりの積み重ねによって変わる\n* 商談が終わったら、自分の選択を最初から見返せる\n* 答えを見たいときは、設定のデバッグ表示で最善手と理由を開ける\n\n通信しません:\n\nこのアプリは**インターネットに繋がっていなくても最後まで遊べます**。\n商談のデータはアプリの中に入っていて、判定も端末の中で終わります。\n電車の中でも、圏外でも、同じように動きます。\n\n登録は任意です:\n\nユーザー名とパスワードを登録すると、機種変更のときに進み具合を\n引き継げます。登録しなくても、遊べる内容は何も変わりません。\n\nこのアプリについて:\n\n* **なぜ失敗したのかは教えません。** 実際の商談でも理由は\n  教えてもらえないので、会話を見返して考えるところまでを練習とします。\n* 相手は嘘をつくことがあります。聞いて得た答えを鵜呑みにすると外れます。\n* **広告と利用者追跡はありません。** 必要な権限はインターネットだけで、\n  それも進み具合の引き継ぎを使うときにしか働きません。"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/io.github.pad01g.salesrp/en-US/icon_FPFNCNouuKFkftN6u5MZ7gISf8QCvxcuu1pkIdl6B7k=.png",
+            "sha256": "14f14d08da2eb8a1647ed37abb9319ee02127fc402bf172ebb5a6421d97a07b9",
+            "size": 14937
+          }
+        },
+        "preferredSigner": "608a3f7434db33dab258ef118aef4844c380ccac9c52f10711a6db2f18c000ad"
+      },
+      "versions": {
+        "a1a714e700280f239493ed9be213e7fd93d0ff9c6c5d5ecf72fad9da2b48f4e7": {
+          "added": 1789824634000,
+          "file": {
+            "name": "/io.github.pad01g.salesrp_100.apk",
+            "sha256": "a1a714e700280f239493ed9be213e7fd93d0ff9c6c5d5ecf72fad9da2b48f4e7",
+            "size": 4631910
+          },
+          "manifest": {
+            "versionName": "0.1.0",
+            "versionCode": 100,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "608a3f7434db33dab258ef118aef4844c380ccac9c52f10711a6db2f18c000ad"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "io.github.pad01g.salesrp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {
+              "en-US": "ユーザー名とパスワードを登録した場合にかぎり、進み具合の保管に\n作者が運用するソース非公開のサーバを使います。\n\n**登録しなければ通信は一切しません。** 商談のデータはアプリに\n同梱されていて、判定も端末の中で終わるため、サーバが止まっていても、\nそもそもインターネットに繋がっていなくても、すべての商談を\n最後まで遊べます。サーバが預かるのは「どの商談をどう終えたか」だけです。\n\nただし、そのサーバのソースコードは公開されていないため、\n登録した場合にその記録がどう扱われるかを利用者が検証することはできません。"
             }
           }
         }
