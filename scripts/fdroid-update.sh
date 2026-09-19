@@ -29,11 +29,23 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-SECRETS="$(cd "${ROOT}/../.." && pwd)/secrets"
 IMAGE="android-example-fdroid:2"
 
-if [[ ! -f "${SECRETS}/fdroid.keystore" ]]; then
-  echo "error: ${SECRETS}/fdroid.keystore がありません" >&2
+# secrets/ は android-example/ の直下にある。このリポジトリは
+# <集約リポジトリ>/references/ にも <集約リポジトリ>/repos/ にも置かれるので、
+# 相対で数えず、見つかるまで親を辿る
+SECRETS=""
+dir="${ROOT}"
+while [[ "${dir}" != "/" ]]; do
+  if [[ -f "${dir}/secrets/fdroid.keystore" ]]; then
+    SECRETS="${dir}/secrets"
+    break
+  fi
+  dir="$(dirname "${dir}")"
+done
+
+if [[ -z "${SECRETS}" ]]; then
+  echo "error: secrets/fdroid.keystore が見つかりません (${ROOT} から上を探しました)" >&2
   exit 1
 fi
 

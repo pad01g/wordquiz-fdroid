@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1789807718000,
+    "timestamp": 1789808169000,
     "version": 20002,
     "name": "pad01g's apps",
     "icon": "icon.png",
@@ -81,6 +81,31 @@
         "en-US": {
           "featureGraphic": "featureGraphic_EnODbG3KtoUpY5UgG9zn08sinhUg0VmXNZpbV0JeDAc=.png",
           "icon": "icon_8NGz2o-sni3FexPMfCFfrwNb3TYkKRUYc9kYQicH72o=.png"
+        }
+      }
+    },
+    {
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
+      "authorName": "pad01g",
+      "categories": [
+        "Sports & Health"
+      ],
+      "suggestedVersionCode": "100",
+      "description": "\u6388\u4e73\u30fb\u304a\u3080\u3064\u30fb\u306d\u3093\u306d\u306a\u3069\u3001\u3053\u3069\u3082\u306e\u8a18\u9332\u3092\u305d\u306e\u5834\u3067\u6b8b\u3057\u307e\u3059\u3002\n\u62db\u5f85\u30b3\u30fc\u30c9\u3067\u5bb6\u65cf\u306b\u5165\u308b\u3068\u3001\u8ab0\u304b\u304c\u4ed8\u3051\u305f\u8a18\u9332\u304c\u4ed6\u306e\u5bb6\u65cf\u306e\u7aef\u672b\u306b\u3082\u3059\u3050\u51fa\u307e\u3059\u3002\n\n\u3067\u304d\u308b\u3053\u3068:\n\n* \u6388\u4e73\u30fb\u304a\u3080\u3064\u30fb\u306d\u3093\u306d\u30fb\u304b\u3089\u3060\u306e\u4e16\u8a71\u306a\u3069 18 \u7a2e\u985e\u306e\u8a18\u9332\n* \u5bb6\u65cf\u3092\u4f5c\u308a\u30016 \u6587\u5b57\u306e\u62db\u5f85\u30b3\u30fc\u30c9\u3067\u8fce\u3048\u5165\u308c\u308b\n* \u3053\u3069\u3082\u3054\u3068\u306e\u30bf\u30a4\u30e0\u30e9\u30a4\u30f3\u3068\u3001\u65e5\u3054\u3068\u306e\u307e\u3068\u3081\n* \u5bb6\u65cf\u306e\u8ab0\u304b\u304c\u8a18\u9332\u3059\u308b\u3068\u3001\u958b\u3044\u3066\u3044\u308b\u7aef\u672b\u306b\u3059\u3050\u53cd\u6620\u3055\u308c\u308b\n\n\u30aa\u30d5\u30e9\u30a4\u30f3\u3067\u3082\u8a18\u9332\u3067\u304d\u307e\u3059:\n\n\u591c\u4e2d\u306e\u6388\u4e73\u3084\u5916\u51fa\u5148\u3067\u570f\u5916\u3067\u3082\u3001\u307e\u305a\u7aef\u672b\u306b\u4fdd\u5b58\u3057\u307e\u3059\u3002\n\u7e4b\u304c\u3063\u305f\u3068\u304d\u306b\u307e\u3068\u3081\u3066\u9001\u308a\u3001\u5bb6\u65cf\u306e\u4ed6\u306e\u7aef\u672b\u3078\u914d\u3089\u308c\u307e\u3059\u3002\n\u8a18\u9332\u306e ID \u306f\u7aef\u672b\u5074\u3067\u4f5c\u308b\u306e\u3067\u3001\u540c\u3058\u8a18\u9332\u304c\u4e8c\u91cd\u306b\u5165\u308b\u3053\u3068\u306f\u3042\u308a\u307e\u305b\u3093\u3002\n\n\u3053\u306e\u30a2\u30d7\u30ea\u306b\u3064\u3044\u3066:\n\n* **\u5199\u771f\u306f\u6271\u3044\u307e\u305b\u3093\u3002** \u3053\u3069\u3082\u306e\u30a2\u30a4\u30b3\u30f3\u306f\u767b\u9332\u6642\u306b\u6c7a\u307e\u308b\u7a2e\u304b\u3089\n  \u63cf\u3044\u305f\u56f3\u5f62\u3067\u3001\u753b\u50cf\u306f\u3069\u3053\u306b\u3082\u4fdd\u5b58\u3055\u308c\u307e\u305b\u3093\u3002\n* **\u30a2\u30ab\u30a6\u30f3\u30c8\u306f\u30e6\u30fc\u30b6\u30fc\u540d\u3068\u30d1\u30b9\u30ef\u30fc\u30c9\u3060\u3051\u3067\u3059\u3002** \u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3082\n  \u96fb\u8a71\u756a\u53f7\u3082\u8a0a\u304d\u307e\u305b\u3093\u3002\n* **\u4f5c\u8005\u304c\u500b\u4eba\u3067\u904b\u7528\u3057\u3066\u3044\u308b\u30b5\u30fc\u30d0\u306b\u8a18\u9332\u304c\u4fdd\u5b58\u3055\u308c\u307e\u3059\u3002**\n  \u5bb6\u65cf\u3067\u5171\u6709\u3059\u308b\u305f\u3081\u306b\u306f\u305d\u306e\u30b5\u30fc\u30d0\u304c\u5fc5\u8981\u3067\u3059\u3002",
+      "issueTracker": "https://github.com/pad01g/sodachi-frontend/issues",
+      "license": "MIT",
+      "name": "\u305d\u3060\u3061\u30ed\u30b0",
+      "sourceCode": "https://github.com/pad01g/sodachi-frontend",
+      "summary": "\u3053\u3069\u3082\u306e\u8a18\u9332\u3092\u5bb6\u65cf\u3067\u5171\u6709\u3059\u308b\u80b2\u5150\u8a18\u9332",
+      "added": 1789808115000,
+      "packageName": "io.github.pad01g.sodachi",
+      "lastUpdated": 1789808115000,
+      "localized": {
+        "en-US": {
+          "featureGraphic": "featureGraphic_rwUf_pt52Pbr8eOz4eU6GR_daEe1Hn8J8AKJqlq_VFM=.png",
+          "icon": "icon_iELoBxN0ccfyvfTmNMlvD-QYJiXlKFgL4m8S2QRMeE4=.png"
         }
       }
     }
@@ -403,6 +428,48 @@
           ],
           [
             "io.github.pad01g.p2pchess.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 100,
+        "versionName": "0.1.0"
+      }
+    ],
+    "io.github.pad01g.sodachi": [
+      {
+        "added": 1789808115000,
+        "apkName": "io.github.pad01g.sodachi_100.apk",
+        "hash": "1f1d205f83d96681c2a456938aaa7cbbb7fba5e62342628d8c854e88f300e47c",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "packageName": "io.github.pad01g.sodachi",
+        "sig": "7794ef7461481bd0e1668b9d51aa3681",
+        "signer": "62c3c3dab57f5774e8f04f55dcc13775a0103847d2c944a85fbab85ea7664c0a",
+        "size": 4631887,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "io.github.pad01g.sodachi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
             null
           ]
         ],
