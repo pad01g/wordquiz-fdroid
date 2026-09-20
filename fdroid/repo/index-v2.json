@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1789870602000,
+    "timestamp": 1789870941000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -750,7 +750,7 @@
           "Science & Education"
         ],
         "issueTracker": "https://github.com/pad01g/salesrp-frontend/issues",
-        "lastUpdated": 1789827418000,
+        "lastUpdated": 1789870933000,
         "license": "MIT",
         "sourceCode": "https://github.com/pad01g/salesrp-frontend",
         "featureGraphic": {
@@ -780,6 +780,64 @@
         "preferredSigner": "608a3f7434db33dab258ef118aef4844c380ccac9c52f10711a6db2f18c000ad"
       },
       "versions": {
+        "dd1a48f30e4c4758962206b8fd0e2548ac38253512804619b58571e113eb1ebf": {
+          "added": 1789870933000,
+          "file": {
+            "name": "/io.github.pad01g.salesrp_200.apk",
+            "sha256": "dd1a48f30e4c4758962206b8fd0e2548ac38253512804619b58571e113eb1ebf",
+            "size": 6458290
+          },
+          "manifest": {
+            "versionName": "0.2.0",
+            "versionCode": 200,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "608a3f7434db33dab258ef118aef4844c380ccac9c52f10711a6db2f18c000ad"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "io.github.pad01g.salesrp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Firebase (Google Analytics / Cloud Messaging) の SDK を含みます。\nこれはソース非公開の依存で、端末の Google Play 開発者サービスを通して動きます。\n\n**Google Play が入っていない端末でも、インストールと利用はできます。**\nその場合は通知が届かず、利用状況も送られません。それ以外は同じように動きます。"
+            },
+            "NonFreeNet": {
+              "en-US": "ユーザー名とパスワードを登録した場合にかぎり、進み具合の保管に\n作者が運用するソース非公開のサーバを使います。\n\n**登録しなければ通信は一切しません。** 商談のデータはアプリに\n同梱されていて、判定も端末の中で終わるため、サーバが止まっていても、\nそもそもインターネットに繋がっていなくても、すべての商談を\n最後まで遊べます。サーバが預かるのは「どの商談をどう終えたか」だけです。\n\nただし、そのサーバのソースコードは公開されていないため、\n登録した場合にその記録がどう扱われるかを利用者が検証することはできません。"
+            },
+            "Tracking": {
+              "en-US": "どの画面が開かれたかを Google Analytics (Firebase) へ送ります。\n送るのは**画面の名前と操作の名前だけ**です。\nシナリオの名前も、成績も、選んだ答えも送りません。\n\n通知を受け取るために Firebase Cloud Messaging も使います。\n通知の許可を出さなければ、宛先そのものを作りません。\n\n広告 ID を使う権限は、マニフェストで明示的に取り消してあります。"
+            }
+          }
+        },
         "457f5ea63d1950f4a8959c50512b81ea0c080436d3bef94bad2adfc2e1d71f58": {
           "added": 1789827418000,
           "file": {
