@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1789870941000,
+    "timestamp": 1789871359000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -200,7 +200,7 @@
           "Connectivity"
         ],
         "issueTracker": "https://github.com/pad01g/matching-frontend/issues",
-        "lastUpdated": 1789823444000,
+        "lastUpdated": 1789871344000,
         "license": "MIT",
         "sourceCode": "https://github.com/pad01g/matching-frontend",
         "featureGraphic": {
@@ -230,6 +230,64 @@
         "preferredSigner": "69de51426bc600ff435bc5756889037ae094290a577bbe0f03d2e5efdb855dd3"
       },
       "versions": {
+        "8f60e8ec2a0c277a0dd585548e01e82eef99b205bd620814775303ebbaf689ad": {
+          "added": 1789871344000,
+          "file": {
+            "name": "/io.github.pad01g.matching_400.apk",
+            "sha256": "8f60e8ec2a0c277a0dd585548e01e82eef99b205bd620814775303ebbaf689ad",
+            "size": 6425477
+          },
+          "manifest": {
+            "versionName": "0.4.0",
+            "versionCode": 400,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "69de51426bc600ff435bc5756889037ae094290a577bbe0f03d2e5efdb855dd3"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "io.github.pad01g.matching.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Firebase (Google Analytics / Cloud Messaging) の SDK を含みます。\nこれはソース非公開の依存で、端末の Google Play 開発者サービスを通して動きます。\n\n**Google Play が入っていない端末でも、インストールと利用はできます。**\nその場合は通知が届かず、利用状況も送られません。それ以外は同じように動きます。"
+            },
+            "NonFreeNet": {
+              "en-US": "このアプリは、作者が運用するソース非公開のサーバが無いと\n**一切動きません**。アカウント・プロフィール・写真・マッチ・\nメッセージはすべてそのサーバに保存され、端末の中だけで完結する\n機能はありません。\n\nサーバが停止していればログインもできません。\nまた、そのサーバのソースコードは公開されていないため、\nあなたのデータがどう扱われるかを利用者が検証することはできません。"
+            },
+            "Tracking": {
+              "en-US": "どの画面が開かれたかを Google Analytics (Firebase) へ送ります。\n送るのは**画面の名前と操作の名前だけ**です。\nプロフィールも、相手が誰かも、メッセージの中身も送りません。\n\n通知を受け取るために Firebase Cloud Messaging も使います。\n通知の許可を出さなければ、宛先そのものを作りません。\n\n広告 ID を使う権限は、マニフェストで明示的に取り消してあります。"
+            }
+          }
+        },
         "a83479b2932425dd7f646445e6d03ddc6bda8fe5efaf4f9145277c260b21794b": {
           "added": 1789823444000,
           "file": {
