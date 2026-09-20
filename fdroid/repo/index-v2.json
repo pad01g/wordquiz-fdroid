@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1789888338000,
+    "timestamp": 1789889049000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -1009,7 +1009,7 @@
           "Games"
         ],
         "issueTracker": "https://github.com/pad01g/shiba-game/issues",
-        "lastUpdated": 1789888330000,
+        "lastUpdated": 1789889041000,
         "license": "MIT",
         "sourceCode": "https://github.com/pad01g/shiba-game",
         "featureGraphic": {
@@ -1039,6 +1039,43 @@
         "preferredSigner": "7603d25d4f43eb5429d6cc803479ff2be8018a2db6697876a30e212d7631e084"
       },
       "versions": {
+        "21c12876429e79f75c40614fb1f78dc2a2e916dbbd9f66bc9dc1469e4187c624": {
+          "added": 1789889041000,
+          "file": {
+            "name": "/io.github.pad01g.shiba_401.apk",
+            "sha256": "21c12876429e79f75c40614fb1f78dc2a2e916dbbd9f66bc9dc1469e4187c624",
+            "size": 87339423
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "0.4.1",
+            "versionCode": 401,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "7603d25d4f43eb5429d6cc803479ff2be8018a2db6697876a30e212d7631e084"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {
+              "en-US": "ふたりで遊ぶときの待ち合わせに、作者が運用するソース非公開のサーバを\n使います。あいことばで相手を見つけるまでの受け渡しがそこを通ります。\n\n相手が見つかった後は、**端末どうしが直接つながる**のが基本で、\n遊んでいる間のやり取りはサーバを通りません。直接つながれなかった\n場合にかぎり、サーバが中継します。\n\nサーバが保存するのは何もありません。部屋は二人が抜けた時点で\n消えます。ただしそのサーバのソースコードは公開されていないため、\n利用者が中身を検証することはできません。\n\n**「ひとりで両方ためす」を選んだ場合は、通信を一切しません。**"
+            }
+          }
+        },
         "cc9fa15f3d801d6c079e9a89636c0ef355d8fdc6a147fadabe356721863cd2be": {
           "added": 1789888330000,
           "file": {
