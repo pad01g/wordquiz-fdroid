@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1789871359000,
+    "timestamp": 1789871494000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -997,6 +997,69 @@
             },
             "Tracking": {
               "en-US": "どの画面が開かれたかを Google Analytics (Firebase) へ送ります。\n送るのは**画面の名前と操作の名前だけ**です。\nシナリオの名前も、成績も、選んだ答えも送りません。\n\n通知を受け取るために Firebase Cloud Messaging も使います。\n通知の許可を出さなければ、宛先そのものを作りません。\n\n広告 ID を使う権限は、マニフェストで明示的に取り消してあります。"
+            }
+          }
+        }
+      }
+    },
+    "io.github.pad01g.shiba": {
+      "metadata": {
+        "added": 1789871486000,
+        "categories": [
+          "Games"
+        ],
+        "issueTracker": "https://github.com/pad01g/shiba-game/issues",
+        "lastUpdated": 1789871486000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/pad01g/shiba-game",
+        "featureGraphic": {
+          "en-US": {
+            "name": "/io.github.pad01g.shiba/en-US/featureGraphic_nH4OjaXx1HETgHsuC_PMKZa5RBlCuYMl8lo4ADpWRSU=.png",
+            "sha256": "9c7e0e8da5f1d47113807b2e0bf3cc2996b9441942b98325f25a38003a564525",
+            "size": 16832
+          }
+        },
+        "authorName": "pad01g",
+        "name": {
+          "en-US": "しばいぬのおつかい"
+        },
+        "summary": {
+          "en-US": "ふたりで一匹の柴犬におつかいに行かせる協力ゲーム"
+        },
+        "description": {
+          "en-US": "地図を持った飼い主が、何も読めない柴犬に、口で道を教えておつかいに行かせます。\nふたりで役割を分けて遊ぶ、協力のゲームです。\n\n遊びの芯:\n\n* **口で喋るのはタダ。地図に印を打つと、柴犬が言うことを聞かなくなります。**\n* 飼い主は地図に印を打てます。印は柴犬の世界に光る点として現れるので、\n  塀に遮られていても方角が分かります。確実で、誤解が起きません。\n* ただし印を打つたびに**がまん**が減ります。無くなると柴犬はその場に\n  座り込んで動かなくなります。梃子でも動きません。\n* 戻す方法はひとつだけ。**寄り道をさせること。**\n  電柱を嗅ぐ、草むらに顔を突っ込む、日なたで伸びをする。\n* 日が暮れるまでという決まりがあるので、急ぎたいのに\n  わざと道草を許さなければなりません。\n\nふたりの見ているものが違います:\n\n* **柴犬役** … 地面から 40cm の目線の 3D。塀の向こうは見えません。\n  犬なので**文字が読めず**、通りの名前も店の看板も分かりません。\n  分かるのは、のれんの色や店先の様子だけです。\n* **飼い主役** … 上から見た地図。通りの名前とおつかいメモが読めます。\n  柴犬の現在地は出ますが、**柴犬が何を見ているかは映りません。**\n  そして**犬を直接動かすことはできません。**\n\nだから、ふたりは喋るしかありません。面白さは画面の中ではなく、\nふたりの間で起きます。\n\n遊び方の提案:\n\n**背中合わせで座ってください。** 互いの画面が見えてしまうと、\nこのゲームは成立しません。強制はしませんが、そう遊ぶのが一番面白いです。\n\nこのアプリについて:\n\n* **通信を一切しません。** インターネットの権限そのものを求めません。\n  ふたりで遊ぶときは 1 台の画面を分けて使います。\n* **アカウントも登録もありません。** 何も訊きません。\n* **利用状況を誰にも送りません。** 広告も課金もありません。\n* 記録は端末の中だけに残ります。\n\nこの版について:\n\nまだ遊びの芯を確かめている段階で、絵は灰色の箱のままです。\n面白さが確定する前に見た目へ時間を使わない、という方針で作っています。"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/io.github.pad01g.shiba/en-US/icon_8txZIBMsFG-tYIEtPoiKJrkQIsmtBSN9NUxKu0UuY10=.png",
+            "sha256": "f2dc5920132c146fad60812d3e888a26b91022c9ad05237d354c4abb452e635d",
+            "size": 23768
+          }
+        },
+        "preferredSigner": "7603d25d4f43eb5429d6cc803479ff2be8018a2db6697876a30e212d7631e084"
+      },
+      "versions": {
+        "e6012850762039ca8cedc6e7dd65ad0ff0d846014b99a15c0c4a0004a89b031b": {
+          "added": 1789871486000,
+          "file": {
+            "name": "/io.github.pad01g.shiba_100.apk",
+            "sha256": "e6012850762039ca8cedc6e7dd65ad0ff0d846014b99a15c0c4a0004a89b031b",
+            "size": 30687587
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "0.1.0",
+            "versionCode": 100,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "7603d25d4f43eb5429d6cc803479ff2be8018a2db6697876a30e212d7631e084"
+              ]
             }
           }
         }
