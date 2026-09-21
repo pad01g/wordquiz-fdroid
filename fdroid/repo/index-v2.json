@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1789999076000,
+    "timestamp": 1790004353000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -1067,7 +1067,7 @@
           "Games"
         ],
         "issueTracker": "https://github.com/pad01g/shiba-game/issues",
-        "lastUpdated": 1789999067000,
+        "lastUpdated": 1790004344000,
         "license": "MIT",
         "sourceCode": "https://github.com/pad01g/shiba-game",
         "featureGraphic": {
@@ -1097,6 +1097,55 @@
         "preferredSigner": "7603d25d4f43eb5429d6cc803479ff2be8018a2db6697876a30e212d7631e084"
       },
       "versions": {
+        "0fbd78b9ce0ca044dca4b694336a7ce94b41d30e53ecc24edcd91ec8549c74a7": {
+          "added": 1790004344000,
+          "file": {
+            "name": "/io.github.pad01g.shiba_706.apk",
+            "sha256": "0fbd78b9ce0ca044dca4b694336a7ce94b41d30e53ecc24edcd91ec8549c74a7",
+            "size": 90934089
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "0.7.6",
+            "versionCode": 706,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "7603d25d4f43eb5429d6cc803479ff2be8018a2db6697876a30e212d7631e084"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "io.github.pad01g.shiba.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {
+              "en-US": "ふたりで遊ぶときの待ち合わせに、作者が運用するソース非公開のサーバを\n使います。あいことばで相手を見つけるまでの受け渡しがそこを通ります。\n\n相手が見つかった後は、**端末どうしが直接つながる**のが基本で、\n遊んでいる間のやり取りはサーバを通りません。直接つながれなかった\n場合にかぎり、サーバが中継します。\n\n部屋は二人が抜けた時点で消えます。\n\n**通知のために 2 つだけ保存します。** 端末が通知を受け取るための\n宛先 (端末が発行する番号) と、あいことばの指紋です。\nあいことばそのものは保存しません。保存するのはその一方向の変換で、\n保存が漏れてもあいことばは復元できません。どちらも 30 日で消えます。\n通知を使わない端末は、宛先を送らないので何も保存されません。\n\nそのサーバのソースコードは公開されていないため、\n利用者が中身を検証することはできません。\n\n**「ひとりで両方ためす」を選んだ場合は、通信を一切しません。**"
+            }
+          }
+        },
         "e8c354dbf3433966d161a74b3b6df8f2c3bdeb45bd96b93c0d3738ee1fd1328f": {
           "added": 1789999067000,
           "file": {
