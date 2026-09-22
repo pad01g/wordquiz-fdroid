@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1790055796000,
+    "timestamp": 1790085161000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -24,6 +24,11 @@
       "Games": {
         "name": {
           "en-US": "Games"
+        }
+      },
+      "Internet": {
+        "name": {
+          "en-US": "Internet"
         }
       },
       "Multimedia": {
@@ -2194,6 +2199,72 @@
             "Tracking": {
               "en-US": "どの画面が開かれたかを Google Analytics (Firebase) へ送ります。\n送るのは**画面の名前と操作の名前だけ**です。\nこどもの名前も、記録の中身も、誰が書いたかも送りません。\n\n通知を受け取るために Firebase Cloud Messaging も使います。\n通知の許可を出さなければ、宛先そのものを作りません。\n\n広告 ID を使う権限は、マニフェストで明示的に取り消してあります。"
             }
+          }
+        }
+      }
+    },
+    "io.github.pad01g.twitterviewer": {
+      "metadata": {
+        "added": 1790085157000,
+        "categories": [
+          "Internet"
+        ],
+        "lastUpdated": 1790085157000,
+        "license": "NoLicenseSpecified",
+        "featureGraphic": {
+          "en-US": {
+            "name": "/io.github.pad01g.twitterviewer/en-US/featureGraphic_EMjDxjCtDzVcEnTKBU7unGeaTeXAr-Tl3GwGg-CegZ0=.png",
+            "sha256": "10c8c3c630ad0f355c1274ca054eee9c679a4de5c0afe4e5dc6c0683e09e819d",
+            "size": 22220
+          }
+        },
+        "authorName": "pad01g",
+        "name": {
+          "en-US": "Twitter Viewer"
+        },
+        "summary": {
+          "en-US": "リレー対応の軽量 X(Twitter)ビューア"
+        },
+        "description": {
+          "en-US": "Nitter 的な軽量ビューアです。自分の X(Twitter)アカウントに WebView で\nログインすると、プロフィールやタイムラインを追跡タグや重い UI を排した\nネイティブ一覧で表示します(アイコン・画像・引用・リツイート・ページング対応)。\n\n未ログインの端末でも、どこかで動いているログイン端末のクライアントを介した\n「リレー」で閲覧できます。依頼内容は依頼者の公開鍵で暗号化して受け渡すため、\n中継サーバは内容を読めません。\n\nすべて自分の端末・自分のアカウント完結で、認証情報の外部送信はありません。"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/io.github.pad01g.twitterviewer/en-US/icon_MBLfDABrgvkri0zzJq_JzUPUmWHzr2Uqqel8ZcpUOu0=.png",
+            "sha256": "3012df0c006b82f92b8b4cf326afc9cd43d49961f3af652aa9e97c65ca543aed",
+            "size": 9730
+          }
+        },
+        "preferredSigner": "26289b62b51ab81316ff75a3895f39fa9683f4fcab6be1c5511d8a2efa2b5242"
+      },
+      "versions": {
+        "389659d7fb14d2ce0675f8b89a56e69fa3f0ae7a65d7f9295b409b48f5920de7": {
+          "added": 1790085157000,
+          "file": {
+            "name": "/io.github.pad01g.twitterviewer_100.apk",
+            "sha256": "389659d7fb14d2ce0675f8b89a56e69fa3f0ae7a65d7f9295b409b48f5920de7",
+            "size": 3248282
+          },
+          "manifest": {
+            "versionName": "0.1.0",
+            "versionCode": 100,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "26289b62b51ab81316ff75a3895f39fa9683f4fcab6be1c5511d8a2efa2b5242"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "io.github.pad01g.twitterviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
           }
         }
       }
