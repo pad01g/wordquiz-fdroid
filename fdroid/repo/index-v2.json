@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1790004353000,
+    "timestamp": 1790052969000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -188,6 +188,115 @@
             },
             "Tracking": {
               "en-US": "どの画面が開かれたかを Google Analytics (Firebase) へ送ります。\n送るのは**画面の名前と操作の名前だけ**です。\n写真も、コメントも、家族の情報も送りません。\n\n通知を受け取るために Firebase Cloud Messaging も使います。\n通知の許可を出さなければ、宛先そのものを作りません。\n\n広告 ID を使う権限は、マニフェストで明示的に取り消してあります。"
+            }
+          }
+        }
+      }
+    },
+    "io.github.pad01g.lw": {
+      "metadata": {
+        "added": 1790052943000,
+        "categories": [
+          "Science & Education"
+        ],
+        "issueTracker": "https://github.com/pad01g/lw-frontend/issues",
+        "lastUpdated": 1790052943000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/pad01g/lw-frontend",
+        "featureGraphic": {
+          "en-US": {
+            "name": "/io.github.pad01g.lw/en-US/featureGraphic_qQJmTmTsNHP4Aqa2pXCyLllpZ0WoG5015wMPwBR_NP4=.png",
+            "sha256": "a902664e64ec3473f802a6b6a570b22e59696745a81b9d35e7030fc0147f34fe",
+            "size": 42950
+          }
+        },
+        "authorName": "pad01g",
+        "name": {
+          "en-US": "Longevity Watch"
+        },
+        "summary": {
+          "en-US": "長寿医療の現在地をクイズで知り、ミニアプリを足して使う"
+        },
+        "description": {
+          "en-US": "生命科学における長寿医療が、いまどこまで来ているのかを知るためのアプリです。\nはじめに入っているのはクイズで、老化研究の何が分かっていて何が\n分かっていないのかを、出典付きの問題で確かめます。\n\nここから先は、やりたいことが人によって分かれます。そこで本体は\n**入れ物だけ**にしてあります。中身はミニアプリで、ホーム画面の [+] から\n好きなものを足せます。\n\nミニアプリについて:\n\n* URL を貼るか、おすすめの一覧から選んで足します\n* 端末に落としたミニアプリは、圏外でも開けます\n* 落としたものは、公開元が新しい版を出すと自動で追随します\n* 登録を求めるミニアプリには、このアプリの登録がそのまま使えます\n  (ミニアプリごとにパスワードを作る必要はありません)\n\n**誰でもミニアプリを公開できます:**\n\n規格は公開されていて、審査も申請もありません。決められた形の\nmanifest.json を置けば、それがそのままミニアプリになります。\n作り方はアプリの中から読めます。\n\nミニアプリは隔離して動きます:\n\nミニアプリは sandbox の中で開き、このアプリの画面や保存領域には\n触れません。保存も通信も、決められた窓口を通ります。\n**パスワードがミニアプリに渡ることはありません。**\nミニアプリに渡るのは、宛先と期限を限った短い証明だけで、\nそこに入る利用者の id は**ミニアプリごとに違う値**になります\n(別々の公開元が突き合わせても同じ人だとは分かりません)。\n\n登録は任意です:\n\nクイズは登録しなくても最後まで遊べます。登録すると、ホームの並びと\n設定が端末をまたいで引き継がれ、登録を求めるミニアプリも使えます。\n\nこのアプリについて:\n\n* 出てくるのは**研究の状況**であって、診断でも治療の助言でもありません。\n  体のことは医療者に相談してください。\n* **広告はありません。** ただしどの画面が開かれたかを Google へ送ります\n  (下の「利用者追跡」を見てください)。\n* 画面の文言は日本語と英語を切り替えられます。"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/io.github.pad01g.lw/en-US/icon_9aHyD7JyfL-H48w8LqxtNmLKxaGoJUmAg_VJuFQZpHU=.png",
+            "sha256": "f5a1f20fb2727cbf87e3cc3c2eac6d3662cac5a1a825498083f549b85419a475",
+            "size": 19333
+          }
+        },
+        "preferredSigner": "e613ccff14318bc5a0cabff99c92265ea3d5fc9206ec0300c0172200df2cfce1"
+      },
+      "versions": {
+        "00f94ecd15319681ff3d8296cafe8b69e7e9eff3a659ac3ea89abe4394d815f3": {
+          "added": 1790052943000,
+          "file": {
+            "name": "/io.github.pad01g.lw_100.apk",
+            "sha256": "00f94ecd15319681ff3d8296cafe8b69e7e9eff3a659ac3ea89abe4394d815f3",
+            "size": 6571957
+          },
+          "manifest": {
+            "versionName": "0.1.0",
+            "versionCode": 100,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "e613ccff14318bc5a0cabff99c92265ea3d5fc9206ec0300c0172200df2cfce1"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "io.github.pad01g.lw.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Firebase (Google Analytics / Cloud Messaging) の SDK を含みます。\nこれはソース非公開の依存で、端末の Google Play 開発者サービスを通して動きます。\n\n**Google Play が入っていない端末でも、インストールと利用はできます。**\nその場合は通知が届かず、利用状況も送られません。それ以外は同じように動きます。"
+            },
+            "NonFreeNet": {
+              "en-US": "2 つの意味で、ソース非公開のサーバに繋がることがあります。\n\n1 つは、ユーザー名とパスワードを登録した場合に、ホームの並びと設定の\n保管に作者が運用するサーバを使うことです。**登録しなければ\nその通信は一切ありません。** 同梱のクイズはアプリの中で完結します。\n\nもう 1 つは、追加したミニアプリが**その公開元のサーバ**に繋がることです。\nどこに繋がるかはミニアプリごとに違い、追加する前にその場所が画面に出ます。\n公開元のソースコードが公開されているとは限りません。"
+            },
+            "Tracking": {
+              "en-US": "どの画面が開かれたかを Google Analytics (Firebase) へ送ります。\n送るのは**画面の名前と操作の名前だけ**です。どのミニアプリを\n入れているか、その中で何をしたかは送りません。\n\n通知を受け取るために Firebase Cloud Messaging も使います。\n通知の許可を出さなければ、宛先そのものを作りません。\n\n広告 ID を使う権限は、マニフェストで明示的に取り消してあります。"
             }
           }
         }
