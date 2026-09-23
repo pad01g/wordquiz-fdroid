@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1790160512000,
+    "timestamp": 1790161680000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -2318,7 +2318,7 @@
           "Money"
         ],
         "issueTracker": "https://github.com/pad01g/specwatch-frontend/issues",
-        "lastUpdated": 1790154994000,
+        "lastUpdated": 1790161671000,
         "license": "MIT",
         "sourceCode": "https://github.com/pad01g/specwatch-frontend",
         "featureGraphic": {
@@ -2336,7 +2336,7 @@
           "en-US": "ローカル LLM 用の機材を、条件を決めて見張る"
         },
         "description": {
-          "en-US": "ローカルで LLM を動かすための機材 (GPU や統合メモリの機械) を、\n条件を決めて見張るアプリです。値段は日々動き、中古の出物は数時間で\n消えます。毎日いくつものサイトを見て回る代わりに、条件を決めておくと\n当てはまる出品が出たときに知らせます。\n\n使い方は 3 段です:\n\n* **目標と予算を決める。** 「70B を長い文脈で動かしたい」「予算は\n  これだけ」を選ぶと、そこへ届く構成 (何をそろえるか) が出ます。\n* **構成を見張る。** 1 台あたりいくらまでなら買いかが自動で決まります。\n* **待つ。** 1 時間おきに巡回し、条件に当たったら知らせます。\n\nどのくらい積めば何ができるかも、アプリの中で確かめられます。\nモデルごとに「載るか」「文脈をどれだけ持てるか」「どのくらいの速さか」を、\n必要メモリの計算から出しています。\n\n判断に生成 AI を使っていません:\n\n機材の表もモデルの表も、人が調べて書いた定数です。出品の選別は\n正規表現と算数だけで行うので、**同じ入力からは必ず同じ結果が出ます。**\n読めなかったもの、値段を比べられないもの、売り切れのものは知らせません。\n\n取得元への配慮:\n\n* 公式 API のあるところ (楽天市場・Yahoo!ショッピング・eBay) は API を使います\n* 価格.com は robots.txt が断っている検索と価格推移データには触れず、\n  利用者が登録した商品ページだけを 6 時間おきに読みます\n* Amazon は既定で止めてあり、使う場合も利用者自身がログインします\n\nこの端末の中だけで動きます:\n\nサーバはありません。条件も、取得元の鍵も、見つけた出品も、\nこの端末の中にしかなく、どこにも送りません。通知も端末が自分で立てます。\n\n* **広告はありません。利用状況も送りません。**\n* Google Play 開発者サービスを使いません。入っていない端末でも同じように動きます。"
+          "en-US": "ローカルで LLM を動かすための機材 (GPU や統合メモリの機械) を、\n条件を決めて見張るアプリです。値段は日々動き、中古の出物は数時間で\n消えます。毎日いくつものサイトを見て回る代わりに、条件を決めておくと\n当てはまる出品が出たときに知らせます。\n\n使い方は 3 段です:\n\n* **目標と予算を決める。** 「70B を長い文脈で動かしたい」「予算は\n  これだけ」を選ぶと、そこへ届く構成 (何をそろえるか) が出ます。\n* **構成を見張る。** 1 台あたりいくらまでなら買いかが自動で決まります。\n* **待つ。** 1 時間おきに巡回し、条件に当たったら知らせます。\n\nどのくらい積めば何ができるかも、アプリの中で確かめられます。\nモデルごとに「載るか」「文脈をどれだけ持てるか」「どのくらいの速さか」を、\n必要メモリの計算から出しています。\n\n判断に生成 AI を使っていません:\n\n機材の表もモデルの表も、人が調べて書いた定数です。出品の選別は\n正規表現と算数だけで行うので、**同じ入力からは必ず同じ結果が出ます。**\n読めなかったもの、値段を比べられないもの、売り切れのものは知らせません。\n\n鍵が無くても動きます:\n\n* Amazon と 価格.com は鍵もログインも要らず、最初から有効です\n* 楽天市場と Yahoo!ショッピングも使う場合は、無料の鍵を入れてください\n  (クレジットカードの登録は要りません)\n* ログインは任意です。する場合もアプリの中に画面を出して利用者自身が\n  入力するので、パスワードはアプリを通りません\n\n取得元への配慮:\n\n* 公式 API のあるところ (楽天市場・Yahoo!ショッピング・eBay) は API を使います\n* 取得元ごとに最短間隔と 1 回あたりの本数を決めてあり、\n  どれも 1 日 12〜24 要求に収まります\n\nこの端末の中だけで動きます:\n\nサーバはありません。条件も、取得元の鍵も、見つけた出品も、\nこの端末の中にしかなく、どこにも送りません。通知も端末が自分で立てます。\n\n* **広告はありません。利用状況も送りません。**\n* Google Play 開発者サービスを使いません。入っていない端末でも同じように動きます。"
         },
         "icon": {
           "en-US": {
@@ -2348,6 +2348,73 @@
         "preferredSigner": "3746e447d0f394c883352431c3ee102be9f8616ac2b7c34a31fb498b4ddeee9a"
       },
       "versions": {
+        "4154b9c51399b8c3700b823a2f3eb35b50ec492c70ad50ea161318e14604711a": {
+          "added": 1790161671000,
+          "file": {
+            "name": "/io.github.pad01g.specwatch_10000.apk",
+            "sha256": "4154b9c51399b8c3700b823a2f3eb35b50ec492c70ad50ea161318e14604711a",
+            "size": 10393198
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.0.0",
+            "versionCode": 10000,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "3746e447d0f394c883352431c3ee102be9f8616ac2b7c34a31fb498b4ddeee9a"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_BACKGROUND_LOCATION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "io.github.pad01g.specwatch.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {
+              "en-US": "値段を調べるために、通販サイトのソース非公開なサーバへ繋ぎます\n(楽天市場・Yahoo!ショッピング・eBay の公式 API、Amazon や 価格.com の\n検索結果と商品ページ)。\nどこへ繋ぐかは「取得元」の画面で一つずつ選べ、既定で動くのは\n鍵を入れた取得元だけです。\n\nReddit の公開 JSON と、為替 (frankfurter.app) にも繋ぎます。\n\n**利用者の情報をこれらへ送ることはありません。** 送るのは探す語だけです。"
+            }
+          }
+        },
         "1baf6ab0d6a2748535a8b8a2f04c37c599b26daa8a6bcefeaeb266f5f0a7540d": {
           "added": 1790154994000,
           "file": {
@@ -2411,7 +2478,7 @@
           },
           "antiFeatures": {
             "NonFreeNet": {
-              "en-US": "値段を調べるために、通販サイトのソース非公開なサーバへ繋ぎます\n(楽天市場・Yahoo!ショッピング・eBay の公式 API、価格.com や Amazon の商品ページ)。\nどこへ繋ぐかは「取得元」の画面で一つずつ選べ、既定で動くのは\n鍵を入れた取得元だけです。\n\nReddit の公開 JSON と、為替 (frankfurter.app) にも繋ぎます。\n\n**利用者の情報をこれらへ送ることはありません。** 送るのは探す語だけです。"
+              "en-US": "値段を調べるために、通販サイトのソース非公開なサーバへ繋ぎます\n(楽天市場・Yahoo!ショッピング・eBay の公式 API、Amazon や 価格.com の\n検索結果と商品ページ)。\nどこへ繋ぐかは「取得元」の画面で一つずつ選べ、既定で動くのは\n鍵を入れた取得元だけです。\n\nReddit の公開 JSON と、為替 (frankfurter.app) にも繋ぎます。\n\n**利用者の情報をこれらへ送ることはありません。** 送るのは探す語だけです。"
             }
           }
         },
@@ -2478,7 +2545,7 @@
           },
           "antiFeatures": {
             "NonFreeNet": {
-              "en-US": "値段を調べるために、通販サイトのソース非公開なサーバへ繋ぎます\n(楽天市場・Yahoo!ショッピング・eBay の公式 API、価格.com や Amazon の商品ページ)。\nどこへ繋ぐかは「取得元」の画面で一つずつ選べ、既定で動くのは\n鍵を入れた取得元だけです。\n\nReddit の公開 JSON と、為替 (frankfurter.app) にも繋ぎます。\n\n**利用者の情報をこれらへ送ることはありません。** 送るのは探す語だけです。"
+              "en-US": "値段を調べるために、通販サイトのソース非公開なサーバへ繋ぎます\n(楽天市場・Yahoo!ショッピング・eBay の公式 API、Amazon や 価格.com の\n検索結果と商品ページ)。\nどこへ繋ぐかは「取得元」の画面で一つずつ選べ、既定で動くのは\n鍵を入れた取得元だけです。\n\nReddit の公開 JSON と、為替 (frankfurter.app) にも繋ぎます。\n\n**利用者の情報をこれらへ送ることはありません。** 送るのは探す語だけです。"
             }
           }
         }
