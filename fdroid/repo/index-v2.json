@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1790164159000,
+    "timestamp": 1790164310000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -2742,7 +2742,7 @@
         "categories": [
           "Internet"
         ],
-        "lastUpdated": 1790085157000,
+        "lastUpdated": 1790164306000,
         "license": "NoLicenseSpecified",
         "featureGraphic": {
           "en-US": {
@@ -2759,7 +2759,7 @@
           "en-US": "リレー対応の軽量 X(Twitter)ビューア"
         },
         "description": {
-          "en-US": "Nitter 的な軽量ビューアです。自分の X(Twitter)アカウントに WebView で\nログインすると、プロフィールやタイムラインを追跡タグや重い UI を排した\nネイティブ一覧で表示します(アイコン・画像・引用・リツイート・ページング対応)。\n\n未ログインの端末でも、どこかで動いているログイン端末のクライアントを介した\n「リレー」で閲覧できます。依頼内容は依頼者の公開鍵で暗号化して受け渡すため、\n中継サーバは内容を読めません。\n\nすべて自分の端末・自分のアカウント完結で、認証情報の外部送信はありません。"
+          "en-US": "Nitter 的な軽量ビューアです。自分の X(Twitter)アカウントに WebView で\nログインすると、プロフィールやタイムラインを追跡タグや重い UI を排した\nネイティブ一覧で表示します(アイコン・画像・引用・リツイート・ページング対応)。\n\n未ログインの端末でも、どこかで動いているログイン端末のクライアントを介した\n「リレー」で閲覧できます。依頼内容は依頼者の公開鍵で暗号化して受け渡すため、\n中継サーバは内容を読めません。\n\n見たい人はアプリの中だけの「フォロー」の一覧に並べておけます。目にした投稿は\n端末の中に文字だけキャッシュされ、取得できないときも前に見た分を読めます。\n\nすべて自分の端末・自分のアカウント完結で、認証情報の外部送信はありません。"
         },
         "icon": {
           "en-US": {
@@ -2777,6 +2777,35 @@
             "name": "/io.github.pad01g.twitterviewer_100.apk",
             "sha256": "389659d7fb14d2ce0675f8b89a56e69fa3f0ae7a65d7f9295b409b48f5920de7",
             "size": 3248282
+          },
+          "manifest": {
+            "versionName": "0.1.0",
+            "versionCode": 100,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "26289b62b51ab81316ff75a3895f39fa9683f4fcab6be1c5511d8a2efa2b5242"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "io.github.pad01g.twitterviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "19617d41f2c115a59e2e26d5a35f8bc24fcc66ef192acb997ff69976a6db61a6": {
+          "added": 1790164306000,
+          "file": {
+            "name": "/io.github.pad01g.twitterviewer_101.apk",
+            "sha256": "19617d41f2c115a59e2e26d5a35f8bc24fcc66ef192acb997ff69976a6db61a6",
+            "size": 3251303
           },
           "manifest": {
             "versionName": "0.1.0",
