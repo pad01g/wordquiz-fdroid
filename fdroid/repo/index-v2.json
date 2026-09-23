@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1790164620000,
+    "timestamp": 1790167185000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -339,6 +339,115 @@
                 "name": "io.github.pad01g.instagramviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
+          }
+        }
+      }
+    },
+    "io.github.pad01g.kansoku": {
+      "metadata": {
+        "added": 1790167147000,
+        "categories": [
+          "Science & Education"
+        ],
+        "issueTracker": "https://github.com/pad01g/kansoku-frontend/issues",
+        "lastUpdated": 1790167147000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/pad01g/kansoku-frontend",
+        "featureGraphic": {
+          "en-US": {
+            "name": "/io.github.pad01g.kansoku/en-US/featureGraphic_AglyAL1FlVPlPbD4fClJo2GIN8NmgP_zy5gnK6jYZ4Q=.png",
+            "sha256": "02097200bd459553e53db0f87c2949a3618837c36680fff3cb98272ba8d86784",
+            "size": 36059
+          }
+        },
+        "authorName": "pad01g",
+        "name": {
+          "en-US": "観測"
+        },
+        "summary": {
+          "en-US": "行動分析と A/B テストを、手を動かして確かめるための実験場"
+        },
+        "description": {
+          "en-US": "**このアプリは、利用のされ方を数えるための実験場です。**\n中身は 1 日 1 問の 3 択診断ですが、それは題材で、目的は\n「行動分析と A/B テストが中で何をしているか」を確かめることです。\n\n何をしているか:\n\n* 同じ出来事を 2 か所に送ります。1 つは Google Analytics、\n  もう 1 つは作者が自分で建てたサーバです\n* 片方で出した結論を、もう片方で同じ数字として再現できるかを確かめます\n* 画面の出し分け (A/B テスト) をして、行動が変わるかを測ります\n\n**数えていることを隠しません:**\n\nアプリの中に「観測室」という画面があり、そこで\n\n* 自分がどの仮名で数えられているか\n* いまどの群に入っていて、それを誰が決めたか\n* 送り先が生きているか、何件待っているか、何件捨てたか\n\nが全部見られます。送っていないものはそこに出ません。\n\n送らないもの:\n\n* 選んだ答えそのもの、結果の文面\n* 名前、連絡先、位置、端末の識別子\n* 自由に入力した文字列 (そもそも入力欄がありません)\n\n仮名は初回起動時に端末の中で作った乱数で、他のどこにも紐づきません。\n端末を変えれば別人になります。\n\n広告について:\n\n広告枠が出ることがありますが、**本物の広告配信はしていません**。\n出るのは Google が公開しているテスト広告か、枠を模しただけの箱です。\n収益は発生しません。枠があると行動が変わるかを測るために置いてあります。\n\nGoogle Play 開発者サービスが入っていない端末でも動きます。\nその場合は Google 側への送信と広告が行われず、作者のサーバへの\n記録だけが続きます。群の割り当ても端末の中で行われます。"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/io.github.pad01g.kansoku/en-US/icon_gnXVw37cppNHoQAAZIyJDjQa6dQh9PdoKLBcmC_M7EI=.png",
+            "sha256": "8275d5c37edca69347a10000648c890e341ae9d421f4f76828b05c982fccec42",
+            "size": 16895
+          }
+        },
+        "preferredSigner": "f0451414b4ddf8e843bdecac6904a40026f81fda083e78805f44c17a3a858816"
+      },
+      "versions": {
+        "880c8e1a7d40f1d4b158a7950237dfa9696650b8f215231e156c85f0efef99d9": {
+          "added": 1790167147000,
+          "file": {
+            "name": "/io.github.pad01g.kansoku_100.apk",
+            "sha256": "880c8e1a7d40f1d4b158a7950237dfa9696650b8f215231e156c85f0efef99d9",
+            "size": 7593396
+          },
+          "manifest": {
+            "versionName": "0.1.0",
+            "versionCode": 100,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "f0451414b4ddf8e843bdecac6904a40026f81fda083e78805f44c17a3a858816"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_TOPICS"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "io.github.pad01g.kansoku.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Firebase (Analytics / Remote Config) と AdMob の SDK を含みます。\nこれはソース非公開の依存で、端末の Google Play 開発者サービスを\n通して動きます。\n\n**Google Play が入っていない端末でも、インストールと利用はできます。**\nその場合は Google 側への送信と広告が行われません。それ以外は同じように動きます。"
+            },
+            "NonFreeNet": {
+              "en-US": "ソース非公開のサーバに繋がります。Google (Firebase / Google Analytics /\nAdMob) と、作者が運用する記録用のサーバです。"
+            },
+            "Tracking": {
+              "en-US": "**このアプリの目的は、利用のされ方を数えることです。**\n\nどの画面を開いたか、どのボタンを押したか、どこでやめたかを、\nGoogle Analytics (Firebase) と、作者が運用するサーバの両方へ送ります。\n仮名の利用者 id を付けるので、**同じ端末での行動は繋がった形で\n記録されます**。\n\n何を送っているかは、アプリの中の「観測室」で全部見られます。\n送っていないものはそこに出ません。"
+            }
           }
         }
       }
