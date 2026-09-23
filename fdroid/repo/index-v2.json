@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1790164310000,
+    "timestamp": 1790164620000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -2771,16 +2771,16 @@
         "preferredSigner": "26289b62b51ab81316ff75a3895f39fa9683f4fcab6be1c5511d8a2efa2b5242"
       },
       "versions": {
-        "389659d7fb14d2ce0675f8b89a56e69fa3f0ae7a65d7f9295b409b48f5920de7": {
-          "added": 1790085157000,
+        "9c1df93ac6204c5cff8d57b1f3cfc03957425cf7451c9403b5d577d22b72f59d": {
+          "added": 1790164306000,
           "file": {
-            "name": "/io.github.pad01g.twitterviewer_100.apk",
-            "sha256": "389659d7fb14d2ce0675f8b89a56e69fa3f0ae7a65d7f9295b409b48f5920de7",
-            "size": 3248282
+            "name": "/io.github.pad01g.twitterviewer_101.apk",
+            "sha256": "9c1df93ac6204c5cff8d57b1f3cfc03957425cf7451c9403b5d577d22b72f59d",
+            "size": 3251311
           },
           "manifest": {
-            "versionName": "0.1.0",
-            "versionCode": 100,
+            "versionName": "0.2.0",
+            "versionCode": 101,
             "usesSdk": {
               "minSdkVersion": 23,
               "targetSdkVersion": 35
@@ -2800,12 +2800,12 @@
             ]
           }
         },
-        "19617d41f2c115a59e2e26d5a35f8bc24fcc66ef192acb997ff69976a6db61a6": {
-          "added": 1790164306000,
+        "389659d7fb14d2ce0675f8b89a56e69fa3f0ae7a65d7f9295b409b48f5920de7": {
+          "added": 1790085157000,
           "file": {
-            "name": "/io.github.pad01g.twitterviewer_101.apk",
-            "sha256": "19617d41f2c115a59e2e26d5a35f8bc24fcc66ef192acb997ff69976a6db61a6",
-            "size": 3251303
+            "name": "/io.github.pad01g.twitterviewer_100.apk",
+            "sha256": "389659d7fb14d2ce0675f8b89a56e69fa3f0ae7a65d7f9295b409b48f5920de7",
+            "size": 3248282
           },
           "manifest": {
             "versionName": "0.1.0",
