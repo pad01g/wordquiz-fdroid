@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1790161680000,
+    "timestamp": 1790162001000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -2557,7 +2557,7 @@
         "categories": [
           "Internet"
         ],
-        "lastUpdated": 1790160495000,
+        "lastUpdated": 1790161983000,
         "license": "NoLicenseSpecified",
         "featureGraphic": {
           "en-US": {
@@ -2586,6 +2586,43 @@
         "preferredSigner": "cb441428979eb1961635dd9bdcb7baf62dd7552c6daa1358ce4ad55def991327"
       },
       "versions": {
+        "36495d67076f699f560047b5bf5270a8f7e2f84fe80415ee5537de9d9fc65898": {
+          "added": 1790161983000,
+          "file": {
+            "name": "/io.github.pad01g.tiktokviewer_101.apk",
+            "sha256": "36495d67076f699f560047b5bf5270a8f7e2f84fe80415ee5537de9d9fc65898",
+            "size": 3525744
+          },
+          "manifest": {
+            "versionName": "0.1.1",
+            "versionCode": 101,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "cb441428979eb1961635dd9bdcb7baf62dd7552c6daa1358ce4ad55def991327"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "io.github.pad01g.tiktokviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        },
         "a3289d64f6d28fcb21395799fee601490c5c17dc2aeeef4bf73d2984e21e012e": {
           "added": 1790160495000,
           "file": {
