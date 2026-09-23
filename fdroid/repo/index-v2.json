@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1790162001000,
+    "timestamp": 1790164002000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -2557,7 +2557,7 @@
         "categories": [
           "Internet"
         ],
-        "lastUpdated": 1790161983000,
+        "lastUpdated": 1790163985000,
         "license": "NoLicenseSpecified",
         "featureGraphic": {
           "en-US": {
@@ -2574,7 +2574,7 @@
           "en-US": "リレー対応の軽量 TikTok ビューア"
         },
         "description": {
-          "en-US": "軽量な TikTok ビューアです。自分の TikTok アカウントに WebView で\nログインすると、プロフィールや投稿、コメントを、おすすめの自動再生や\n重い UI を排した一覧の画面で閲覧できます。気に入った画像や動画は端末に保存できます。\n\nTikTok が確認画面を出したときは、アプリが自動で抜けようとはせず、\nTikTok のページをそのまま開いて本人に確認を済ませてもらいます。\n\n未ログインの端末でも、どこかで動いているログイン端末のクライアントを介した\n「リレー」で閲覧できます。依頼内容は依頼者の公開鍵で暗号化して受け渡すため、\n中継サーバは内容を読めません。代わりに取得する側は、アカウントを守るために\n取得の間隔と 1 時間あたりの件数に上限を設けています。\n\nすべて自分の端末・自分のアカウント完結で、認証情報の外部送信はありません。"
+          "en-US": "軽量な TikTok ビューアです。自分の TikTok アカウントに WebView で\nログインすると、プロフィールや投稿、コメントを、おすすめの自動再生や\n重い UI を排した一覧の画面で閲覧できます。気に入った画像や動画は端末に保存できます。\n\nTikTok が確認画面を出したときは、アプリが自動で抜けようとはせず、\nTikTok のページをそのまま開いて本人に確認を済ませてもらいます。\n\n未ログインの端末でも、どこかで動いているログイン端末のクライアントを介した\n「リレー」で閲覧できます。依頼内容は依頼者の公開鍵で暗号化して受け渡すため、\n中継サーバは内容を読めません。代わりに取得する側は、アカウントを守るために\n取得の間隔と 1 時間あたりの件数に上限を設けています。\n\n見たい人はアプリの中だけの「フォロー」の一覧に並べておけます。目にした投稿は\n端末の中に文字だけキャッシュされ、取得できないときも前に見た分を読めます。\n\nすべて自分の端末・自分のアカウント完結で、認証情報の外部送信はありません。"
         },
         "icon": {
           "en-US": {
@@ -2586,6 +2586,43 @@
         "preferredSigner": "cb441428979eb1961635dd9bdcb7baf62dd7552c6daa1358ce4ad55def991327"
       },
       "versions": {
+        "8588907bc14dd27659e18b054d9649c09791d0deaf50dbfebda5b5c8bd0257a1": {
+          "added": 1790163985000,
+          "file": {
+            "name": "/io.github.pad01g.tiktokviewer_102.apk",
+            "sha256": "8588907bc14dd27659e18b054d9649c09791d0deaf50dbfebda5b5c8bd0257a1",
+            "size": 3528223
+          },
+          "manifest": {
+            "versionName": "0.2.0",
+            "versionCode": 102,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "cb441428979eb1961635dd9bdcb7baf62dd7552c6daa1358ce4ad55def991327"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "io.github.pad01g.tiktokviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        },
         "36495d67076f699f560047b5bf5270a8f7e2f84fe80415ee5537de9d9fc65898": {
           "added": 1790161983000,
           "file": {
