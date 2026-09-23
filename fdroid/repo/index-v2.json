@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1790155002000,
+    "timestamp": 1790155486000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -209,7 +209,7 @@
         "categories": [
           "Internet"
         ],
-        "lastUpdated": 1790153238000,
+        "lastUpdated": 1790155402000,
         "license": "NoLicenseSpecified",
         "featureGraphic": {
           "en-US": {
@@ -226,7 +226,7 @@
           "en-US": "リレー対応の軽量 Instagram ビューア"
         },
         "description": {
-          "en-US": "軽量な Instagram ビューアです。自分の Instagram アカウントに WebView で\nログインすると、プロフィールと投稿を、追跡や重い UI を排した一覧で表示します\n(複数枚の投稿、動画、ページング対応)。\n\n未ログインの端末でも、どこかで動いているログイン端末のクライアントを介した\n「リレー」で閲覧できます。依頼内容は依頼者の公開鍵で暗号化して受け渡すため、\n中継サーバは内容を読めません。代わりに取得する側は、アカウントを守るために\n取得の間隔と 1 時間あたりの件数に上限を設けています。\n\nすべて自分の端末・自分のアカウント完結で、認証情報の外部送信はありません。"
+          "en-US": "軽量な Instagram ビューアです。自分の Instagram アカウントに WebView で\nログインすると、プロフィールや投稿、コメントを、追跡や重い UI を排した画面で\n閲覧できます。気に入った画像や動画は端末に保存できます。\n\n未ログインの端末でも、どこかで動いているログイン端末のクライアントを介した\n「リレー」で閲覧できます。依頼内容は依頼者の公開鍵で暗号化して受け渡すため、\n中継サーバは内容を読めません。代わりに取得する側は、アカウントを守るために\n取得の間隔と 1 時間あたりの件数に上限を設けています。\n\nすべて自分の端末・自分のアカウント完結で、認証情報の外部送信はありません。"
         },
         "icon": {
           "en-US": {
@@ -238,6 +238,43 @@
         "preferredSigner": "147efce06b63f567b40ca4fb9d803120fcb8968aba7a32d1c230f1f75f2cdf00"
       },
       "versions": {
+        "c2c9fe6775b8365140b8c5ab3fa80561dcc38f20669e7a6dc4604e92b07f147c": {
+          "added": 1790155402000,
+          "file": {
+            "name": "/io.github.pad01g.instagramviewer_101.apk",
+            "sha256": "c2c9fe6775b8365140b8c5ab3fa80561dcc38f20669e7a6dc4604e92b07f147c",
+            "size": 3515308
+          },
+          "manifest": {
+            "versionName": "0.2.0",
+            "versionCode": 101,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "147efce06b63f567b40ca4fb9d803120fcb8968aba7a32d1c230f1f75f2cdf00"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "io.github.pad01g.instagramviewer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        },
         "3ec6fd8c9a5c82d4c30ea8c2577050d2d6be360d43acab0b1bc7bd152b552728": {
           "added": 1790153238000,
           "file": {
