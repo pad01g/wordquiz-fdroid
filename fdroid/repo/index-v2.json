@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1790167185000,
+    "timestamp": 1790170561000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -350,7 +350,7 @@
           "Science & Education"
         ],
         "issueTracker": "https://github.com/pad01g/kansoku-frontend/issues",
-        "lastUpdated": 1790167147000,
+        "lastUpdated": 1790170527000,
         "license": "MIT",
         "sourceCode": "https://github.com/pad01g/kansoku-frontend",
         "featureGraphic": {
@@ -380,6 +380,76 @@
         "preferredSigner": "f0451414b4ddf8e843bdecac6904a40026f81fda083e78805f44c17a3a858816"
       },
       "versions": {
+        "8d2a7d1ce48163f265085d10a0bf1b7030dd215a6b8fcd516ba8fde780c74b81": {
+          "added": 1790170527000,
+          "file": {
+            "name": "/io.github.pad01g.kansoku_200.apk",
+            "sha256": "8d2a7d1ce48163f265085d10a0bf1b7030dd215a6b8fcd516ba8fde780c74b81",
+            "size": 7595821
+          },
+          "manifest": {
+            "versionName": "0.2.0",
+            "versionCode": 200,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "f0451414b4ddf8e843bdecac6904a40026f81fda083e78805f44c17a3a858816"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_TOPICS"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "io.github.pad01g.kansoku.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeDep": {
+              "en-US": "Firebase (Analytics / Remote Config) と AdMob の SDK を含みます。\nこれはソース非公開の依存で、端末の Google Play 開発者サービスを\n通して動きます。\n\n**Google Play が入っていない端末でも、インストールと利用はできます。**\nその場合は Google 側への送信と広告が行われません。それ以外は同じように動きます。"
+            },
+            "NonFreeNet": {
+              "en-US": "ソース非公開のサーバに繋がります。Google (Firebase / Google Analytics /\nAdMob) と、作者が運用する記録用のサーバです。"
+            },
+            "Tracking": {
+              "en-US": "**このアプリの目的は、利用のされ方を数えることです。**\n\nどの画面を開いたか、どのボタンを押したか、どこでやめたかを、\nGoogle Analytics (Firebase) と、作者が運用するサーバの両方へ送ります。\n仮名の利用者 id を付けるので、**同じ端末での行動は繋がった形で\n記録されます**。\n\n何を送っているかは、アプリの中の「観測室」で全部見られます。\n送っていないものはそこに出ません。"
+            }
+          }
+        },
         "880c8e1a7d40f1d4b158a7950237dfa9696650b8f215231e156c85f0efef99d9": {
           "added": 1790167147000,
           "file": {
