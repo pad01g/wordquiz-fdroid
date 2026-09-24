@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>来店スタンプ</title>
+<!--
+  店頭に置く QR の読み先 (https://pad01g.github.io/wordquiz-fdroid/s/#<番号>)。
+  「来店スタンプ」アプリが入っていれば、そのまま開いてスタンプを押す画面へ渡す (intent://)。
+  入っていなければ、入れ方を案内する。番号は # の後ろにあるので、このページのサーバには送られない。
+  正本は stamp-repos/landing/s/index.html。F-Droid の公開のときに wordquiz-fdroid へ写す。
+-->
+<style>
+  body{font-family:system-ui,-apple-system,"Hiragino Sans",sans-serif;max-width:32rem;margin:0 auto;padding:2rem 1rem;line-height:1.7;background:#fffdf8;color:#1f2328}
+  h1{font-size:1.4rem;color:#d9480f}
+  a.btn{display:block;text-align:center;padding:14px;border-radius:12px;background:#d9480f;color:#fff;text-decoration:none;font-weight:700;margin:16px 0}
+  a.sub{background:#fff;color:#d9480f;border:1px solid #d9480f}
+  ol{padding-left:1.2rem}
+  code{background:#f3f4f6;padding:.1em .3em;border-radius:4px;word-break:break-all;font-size:.85em}
+  .muted{color:#6b7280;font-size:.9rem}
+</style>
+</head>
+<body>
+<h1>来店スタンプ</h1>
+<p id="lead">お店のスタンプカードです。「来店スタンプ」アプリで開きます。</p>
+<a id="open" class="btn" href="#">アプリで開く</a>
+
+<h2>アプリが入っていないとき</h2>
+<ol>
+  <li>F-Droid (アプリストア) を入れる: <a href="https://f-droid.org/">f-droid.org</a></li>
+  <li>下の「リポジトリを追加」を押す (F-Droid が開きます)</li>
+  <li>F-Droid で「来店スタンプ」を探して入れる</li>
+  <li>もう一度この QR を読む (アプリの「QR を読む」でも読めます)</li>
+</ol>
+<a class="btn sub" href="fdroidrepos://pad01g.github.io/wordquiz-fdroid/fdroid/repo?fingerprint=13FC1A9EBC882C3ECC9AB39E8F6FA06A94E6547380E4DD8D1930C848E67F37AE">リポジトリを追加</a>
+<p class="muted">追加する URL:<br><code>https://pad01g.github.io/wordquiz-fdroid/fdroid/repo?fingerprint=13FC1A9EBC882C3ECC9AB39E8F6FA06A94E6547380E4DD8D1930C848E67F37AE</code></p>
+<p class="muted">登録は要りません。名前や電話番号も送りません。</p>
+
+<script>
+  (function () {
+    var id = (location.hash || "").replace(/^#/, "");
+    var open = document.getElementById("open");
+    if (!/^[A-Za-z0-9_-]{8,32}$/.test(id)) {
+      document.getElementById("lead").textContent = "QR の中身が読み取れませんでした。もう一度読んでください。";
+      open.style.display = "none";
+      return;
+    }
+    // 毎回ちがうリンクにする (アプリは、同じリンクの開き直しを 2 回目として扱わないため)。
+    // アプリが入っていなければ、Play ストアではなくこのページ (noapp=1) に戻ってくるようにする
+    var fallback = location.origin + location.pathname + "?noapp=1#" + id;
+    var intent = "intent://s/" + id + "/" + Date.now().toString(36) +
+      "#Intent;scheme=pad01gstamp;package=io.github.pad01g.stamp;S.browser_fallback_url=" +
+      encodeURIComponent(fallback) + ";end";
+    open.href = intent;
+    if (/[?&]noapp=1/.test(location.search)) {
+      document.getElementById("lead").textContent = "「来店スタンプ」アプリが見つかりませんでした。下の手順で入れてから、もう一度 QR を読んでください。";
+      return;
+    }
+    // 読んですぐに一度だけ開きに行く (ブラウザによっては止められるので、上のボタンも残す)
+    setTimeout(function () { location.href = intent; }, 300);
+  })();
+</script>
+</body>
+</html>

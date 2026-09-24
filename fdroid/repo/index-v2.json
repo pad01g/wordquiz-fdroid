@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1790259952000,
+    "timestamp": 1790264777000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -2773,7 +2773,7 @@
         "categories": [
           "Money"
         ],
-        "lastUpdated": 1790259750000,
+        "lastUpdated": 1790264753000,
         "license": "NoLicenseSpecified",
         "featureGraphic": {
           "en-US": {
@@ -2802,6 +2802,52 @@
         "preferredSigner": "7a1c872eb44aaf01b6670017426192233400693827d075c732bc5deed759a2c8"
       },
       "versions": {
+        "f25948003566309cbd4dae59d0554ae113c6cf53b7fe179196010fdf279f16de": {
+          "added": 1790264753000,
+          "file": {
+            "name": "/io.github.pad01g.stamp_102.apk",
+            "sha256": "f25948003566309cbd4dae59d0554ae113c6cf53b7fe179196010fdf279f16de",
+            "size": 3723428
+          },
+          "manifest": {
+            "versionName": "0.2.0",
+            "versionCode": 102,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "7a1c872eb44aaf01b6670017426192233400693827d075c732bc5deed759a2c8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "io.github.pad01g.stamp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        },
         "1728f65f0b91f1ebdf927d58ad8fad6d17cca12e025018edf9788f70b491d743": {
           "added": 1790259750000,
           "file": {
