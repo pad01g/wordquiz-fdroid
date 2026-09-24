@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1790170561000,
+    "timestamp": 1790259774000,
     "version": 20002,
     "name": "pad01g's apps",
     "icon": "icon.png",
@@ -301,6 +301,26 @@
         "en-US": {
           "featureGraphic": "featureGraphic_xaOtzu09oKRRm8ElBf2LBzX85T71u9m86cs6fBQu0xo=.png",
           "icon": "icon_FPFNCNouuKFkftN6u5MZ7gISf8QCvxcuu1pkIdl6B7k=.png"
+        }
+      }
+    },
+    {
+      "authorName": "pad01g",
+      "categories": [
+        "Money"
+      ],
+      "suggestedVersionCode": "100",
+      "description": "\u98f2\u98df\u5e97\u306e\u6765\u5e97\u30b9\u30bf\u30f3\u30d7\u30ab\u30fc\u30c9\u306e\u30a2\u30d7\u30ea\u3067\u3059\u3002\u304a\u5e97\u306e QR \u3092\u8aad\u3080\u3068\u30b9\u30bf\u30f3\u30d7\u304c\u8caf\u307e\u308a\u3001\n\u6c7a\u307e\u3063\u305f\u6570\u306b\u306a\u308b\u3068\u7279\u5178\u304c\u4ed8\u304d\u307e\u3059\u3002\u7279\u5178\u306f\u304a\u5e97\u306e\u4eba\u306b\u753b\u9762\u3092\u898b\u305b\u3066\u4f7f\u3044\u307e\u3059\u3002\n\n\u767b\u9332\u306f\u8981\u308a\u307e\u305b\u3093\u3002\u7aef\u672b\u3054\u3068\u306b\u533f\u540d\u306e ID \u3092\u4f5c\u3063\u3066\u4f7f\u3044\u3001\u30cb\u30c3\u30af\u30cd\u30fc\u30e0\u306f\u4efb\u610f\u3067\u3059\u3002\n\u6a5f\u7a2e\u3092\u5909\u3048\u308b\u3068\u304d\u306f\u3001\u5f15\u304d\u7d99\u304e\u30b3\u30fc\u30c9\u3092\u65b0\u3057\u3044\u7aef\u672b\u3067\u8aad\u3081\u3070\u8a18\u9332\u3092\u79fb\u305b\u307e\u3059\u3002\n\n\u5e97\u982d\u306b\u7f6e\u304b\u308c\u305f QR \u3067\u306f\u3001\u304a\u5e97\u306e\u8fd1\u304f\u306b\u3044\u308b\u304b\u3092\u4f4d\u7f6e\u60c5\u5831\u3067\u78ba\u304b\u3081\u307e\u3059\u3002\n\u304a\u5e97\u306e\u753b\u9762\u306b\u51fa\u308b QR \u3084\u3001\u304a\u5e97\u306e\u4eba\u306b\u81ea\u5206\u306e QR \u3092\u8aad\u3093\u3067\u3082\u3089\u3046\u65b9\u6cd5\u3067\u3082\u8caf\u3081\u3089\u308c\u307e\u3059\u3002\n\u96fb\u6ce2\u306e\u60aa\u3044\u304a\u5e97\u3067\u306f\u8a18\u9332\u3057\u3066\u304a\u304d\u3001\u7e4b\u304c\u3063\u305f\u3068\u304d\u306b\u9001\u308a\u307e\u3059\u3002\n\n\u304a\u5e97\u306e\u5074\u306f\u3001\u5225\u306e\u30a2\u30d7\u30ea\u300c\u30b9\u30bf\u30f3\u30d7\u7ba1\u7406\u300d\u3092\u4f7f\u3044\u307e\u3059\u3002",
+      "license": "NoLicenseSpecified",
+      "summary": "\u98f2\u98df\u5e97\u306e\u6765\u5e97\u30b9\u30bf\u30f3\u30d7 (\u767b\u9332\u306a\u3057\u3067\u4f7f\u3048\u308b)",
+      "added": 1790259750000,
+      "packageName": "io.github.pad01g.stamp",
+      "lastUpdated": 1790259750000,
+      "localized": {
+        "en-US": {
+          "featureGraphic": "featureGraphic_4W6PgeKUgjZ08Lf63MXZN4Wo3uv1gGEsi3T9AKW2gBw=.png",
+          "icon": "icon_OGwnNY6lAFQWvn_1GgXD5GEUc-zhw5FY3zcPm0HU6Fc=.png",
+          "name": "\u6765\u5e97\u30b9\u30bf\u30f3\u30d7"
         }
       }
     },
@@ -2338,6 +2358,52 @@
           [
             "io.github.pad01g.specwatch.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
             null
+          ]
+        ],
+        "versionCode": 100,
+        "versionName": "0.1.0"
+      }
+    ],
+    "io.github.pad01g.stamp": [
+      {
+        "added": 1790259750000,
+        "apkName": "io.github.pad01g.stamp_100.apk",
+        "hash": "1728f65f0b91f1ebdf927d58ad8fad6d17cca12e025018edf9788f70b491d743",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "io.github.pad01g.stamp",
+        "sig": "6d5d99f9e1529e3dc97495cfbf47a58c",
+        "signer": "7a1c872eb44aaf01b6670017426192233400693827d075c732bc5deed759a2c8",
+        "size": 3720104,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "io.github.pad01g.stamp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            28
           ]
         ],
         "versionCode": 100,
