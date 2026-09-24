@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1790259774000,
+    "timestamp": 1790259952000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -2840,6 +2840,89 @@
               },
               {
                 "name": "io.github.pad01g.stamp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        }
+      }
+    },
+    "io.github.pad01g.stampadmin": {
+      "metadata": {
+        "added": 1790259928000,
+        "categories": [
+          "Money"
+        ],
+        "lastUpdated": 1790259928000,
+        "license": "NoLicenseSpecified",
+        "featureGraphic": {
+          "en-US": {
+            "name": "/io.github.pad01g.stampadmin/en-US/featureGraphic_YS9Dus4ZM6uXX3vMniqBm3FvLMKZlDyoprWaeFshCTo=.png",
+            "sha256": "612f43bace1933ab975f7bcc9e2a819b716f2cc299943ca8a6b59a785b21093a",
+            "size": 39621
+          }
+        },
+        "authorName": "pad01g",
+        "name": {
+          "en-US": "スタンプ管理"
+        },
+        "summary": {
+          "en-US": "来店スタンプのお店用の管理アプリ"
+        },
+        "description": {
+          "en-US": "飲食店が来店スタンプを配るための管理アプリです。お客さんは別のアプリ\n「来店スタンプ」を使います。\n\nお店の画面に、しばらくごとに変わる QR を出してお客さんに読んでもらうか、\nお客さんの QR を読み取ってスタンプを付けます。変わる QR は 1 回しか使えないので、\n写真で回されても 2 人目には付きません。印刷して店頭に置く QR も作れます。\n\n管理画面では、お客さん (登録していない匿名の人も含む) の来店の記録、特典の付与と使用、\nメモ、受付の停止、日別・時間帯別の集計、CSV への書き出し、お知らせの配信ができます。\n\nお店の鍵はこの端末の中にだけ置かれ、パスワードはありません。\nほかの端末でも管理したいときは、引き継ぎコードを読ませます。"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/io.github.pad01g.stampadmin/en-US/icon_CiDz_vTy1Qrukv6YvB9GipZH8XX1aeVnMa0YfRCVkAY=.png",
+            "sha256": "0a20f3fef4f2d50aee92fe98bc1f468a9647f175f569e56731ad187d10959006",
+            "size": 19863
+          }
+        },
+        "preferredSigner": "8f7314ba419001e883aabf2e0d717c857db3cdad65baff6ca084a7adc51116d6"
+      },
+      "versions": {
+        "be8614c24bb2f2c39a7bf5df202a67a6524066cf9974de36a32930d161e729a1": {
+          "added": 1790259928000,
+          "file": {
+            "name": "/io.github.pad01g.stampadmin_100.apk",
+            "sha256": "be8614c24bb2f2c39a7bf5df202a67a6524066cf9974de36a32930d161e729a1",
+            "size": 3828940
+          },
+          "manifest": {
+            "versionName": "0.1.0",
+            "versionCode": 100,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "8f7314ba419001e883aabf2e0d717c857db3cdad65baff6ca084a7adc51116d6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "io.github.pad01g.stampadmin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               },
               {
                 "name": "android.permission.READ_EXTERNAL_STORAGE",
