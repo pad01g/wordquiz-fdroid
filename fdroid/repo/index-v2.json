@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1790170561000,
+    "timestamp": 1790259774000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -2763,6 +2763,89 @@
             "NonFreeNet": {
               "en-US": "値段を調べるために、通販サイトのソース非公開なサーバへ繋ぎます\n(楽天市場・Yahoo!ショッピング・eBay の公式 API、Amazon や 価格.com の\n検索結果と商品ページ)。\nどこへ繋ぐかは「取得元」の画面で一つずつ選べ、既定で動くのは\n鍵を入れた取得元だけです。\n\nReddit の公開 JSON と、為替 (frankfurter.app) にも繋ぎます。\n\n**利用者の情報をこれらへ送ることはありません。** 送るのは探す語だけです。"
             }
+          }
+        }
+      }
+    },
+    "io.github.pad01g.stamp": {
+      "metadata": {
+        "added": 1790259750000,
+        "categories": [
+          "Money"
+        ],
+        "lastUpdated": 1790259750000,
+        "license": "NoLicenseSpecified",
+        "featureGraphic": {
+          "en-US": {
+            "name": "/io.github.pad01g.stamp/en-US/featureGraphic_4W6PgeKUgjZ08Lf63MXZN4Wo3uv1gGEsi3T9AKW2gBw=.png",
+            "sha256": "e16e8f81e294823674f0b7fadcc5d93785a8deebf580612c8b74fd00a5b6801c",
+            "size": 33386
+          }
+        },
+        "authorName": "pad01g",
+        "name": {
+          "en-US": "来店スタンプ"
+        },
+        "summary": {
+          "en-US": "飲食店の来店スタンプ (登録なしで使える)"
+        },
+        "description": {
+          "en-US": "飲食店の来店スタンプカードのアプリです。お店の QR を読むとスタンプが貯まり、\n決まった数になると特典が付きます。特典はお店の人に画面を見せて使います。\n\n登録は要りません。端末ごとに匿名の ID を作って使い、ニックネームは任意です。\n機種を変えるときは、引き継ぎコードを新しい端末で読めば記録を移せます。\n\n店頭に置かれた QR では、お店の近くにいるかを位置情報で確かめます。\nお店の画面に出る QR や、お店の人に自分の QR を読んでもらう方法でも貯められます。\n電波の悪いお店では記録しておき、繋がったときに送ります。\n\nお店の側は、別のアプリ「スタンプ管理」を使います。"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/io.github.pad01g.stamp/en-US/icon_OGwnNY6lAFQWvn_1GgXD5GEUc-zhw5FY3zcPm0HU6Fc=.png",
+            "sha256": "386c27358ea5005416be7ff51a05c3e4611473ece1c39158df370f9b41d4e857",
+            "size": 17017
+          }
+        },
+        "preferredSigner": "7a1c872eb44aaf01b6670017426192233400693827d075c732bc5deed759a2c8"
+      },
+      "versions": {
+        "1728f65f0b91f1ebdf927d58ad8fad6d17cca12e025018edf9788f70b491d743": {
+          "added": 1790259750000,
+          "file": {
+            "name": "/io.github.pad01g.stamp_100.apk",
+            "sha256": "1728f65f0b91f1ebdf927d58ad8fad6d17cca12e025018edf9788f70b491d743",
+            "size": 3720104
+          },
+          "manifest": {
+            "versionName": "0.1.0",
+            "versionCode": 100,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "7a1c872eb44aaf01b6670017426192233400693827d075c732bc5deed759a2c8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "io.github.pad01g.stamp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
           }
         }
       }
