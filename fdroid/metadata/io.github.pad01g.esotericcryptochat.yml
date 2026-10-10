@@ -6,25 +6,28 @@ SourceCode: https://github.com/pad01g/esoteric-crypto-chat
 IssueTracker: https://github.com/pad01g/esoteric-crypto-chat/issues
 
 Name: Esoteric Crypto Chat
-Summary: 珍しい暗号を実際に使って、その重さと大きさを体感するチャット
+Summary: Chat with unusual cryptography and feel how slow and large it really is
 Description: |-
-  標準的でない暗号 (種数2曲線の Kummer 曲面、虚二次体の類群、SLH-DSA) を
-  標準的な暗号 (X25519, Ed25519) と組み合わせたハイブリッドで、
-  実際に 1 対 1 のチャットをする教材アプリです。
+  A teaching app for one-to-one chat that pairs unusual cryptography
+  (genus-2 Kummer surfaces, imaginary quadratic class groups, SLH-DSA)
+  with standard schemes (X25519, Ed25519) in a hybrid construction.
 
-  1 通ごとに、どのアルゴリズムに何ミリ秒かかり、署名や鍵が何バイトあるかを
-  表示します。ベンチマーク画面で鍵タイプどうしを比べることもできます。
+  Every message shows how many milliseconds each algorithm took and how
+  many bytes the keys and signatures occupy. A benchmark screen compares
+  the key types side by side.
 
-  通信には Nostr の公開リレーを使います。作者のサーバはありません。
-  相手に渡すのは短い連絡先文字列 (鍵束のハッシュ) だけです。
+  Transport rides on public Nostr relays; there is no server of our own.
+  All you hand to the other person is a short contact string (the hash of
+  your key bundle). The interface is available in Japanese and English.
 
-  注意: これは教材です。秘密鍵は端末の中に平文で保存され、暗号処理は
-  定数時間ではありません。実用の秘匿通信には使わないでください。
+  Note: this is teaching material. Secret keys are stored unencrypted on
+  the device and the cryptography is not constant time.
 
+# 日本語の説明は metadata/<appId>/ja-JP/ に置く。yml は英語を既定にする
 AntiFeatures:
   NonFreeNet: |-
-    鍵束の公開とメッセージの中継に、第三者が運用する Nostr の公開リレー
-    (relay.damus.io, nos.lol, relay.nostr.band) を使います。
-    リレーは設定画面から変更できます。
+    Key bundles and messages travel through public Nostr relays run by
+    third parties (relay.damus.io, nos.lol, relay.nostr.band).
+    Relays can be changed in the settings screen.
 
 AutoName: Esoteric Crypto Chat

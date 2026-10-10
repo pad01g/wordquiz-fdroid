@@ -1,0 +1,17 @@
+A teaching app for one-to-one chat that pairs unusual cryptography
+(genus-2 Kummer surfaces, imaginary quadratic class groups, SLH-DSA)
+with standard schemes (X25519, Ed25519) in a hybrid construction.
+
+Every message shows how many milliseconds each algorithm took and how
+many bytes the keys and signatures occupy. A benchmark screen compares
+the key types side by side.
+
+Transport rides on public Nostr relays; there is no server of our own.
+All you hand to the other person is a short contact string (the hash of
+your key bundle).
+
+The interface is available in Japanese and English.
+
+Note: this is teaching material. Secret keys are stored unencrypted on
+the device and the cryptography is not constant time. Do not use it for
+anything that needs real secrecy.
