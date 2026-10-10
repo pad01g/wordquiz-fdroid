@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1791612720000,
+    "timestamp": 1791614065000,
     "version": 20002,
     "name": "pad01g's apps",
     "icon": "icon.png",
@@ -20,7 +20,7 @@
       "categories": [
         "Science & Education"
       ],
-      "suggestedVersionCode": "200",
+      "suggestedVersionCode": "201",
       "description": "A teaching app for one-to-one chat that pairs unusual cryptography\n(genus-2 Kummer surfaces, imaginary quadratic class groups, SLH-DSA)\nwith standard schemes (X25519, Ed25519) in a hybrid construction.\n\nEvery message shows how many milliseconds each algorithm took and how\nmany bytes the keys and signatures occupy. A benchmark screen compares\nthe key types side by side.\n\nTransport rides on public Nostr relays; there is no server of our own.\nAll you hand to the other person is a short contact string (the hash of\nyour key bundle). The interface is available in Japanese and English.\n\nNote: this is teaching material. Secret keys are stored unencrypted on\nthe device and the cryptography is not constant time.",
       "issueTracker": "https://github.com/pad01g/esoteric-crypto-chat/issues",
       "license": "MIT",
@@ -29,7 +29,7 @@
       "summary": "Chat with unusual cryptography and feel how slow and large it really is",
       "added": 1791611209000,
       "packageName": "io.github.pad01g.esotericcryptochat",
-      "lastUpdated": 1791612677000,
+      "lastUpdated": 1791614021000,
       "localized": {
         "en-US": {
           "description": "A teaching app for one-to-one chat that pairs unusual cryptography\n(genus-2 Kummer surfaces, imaginary quadratic class groups, SLH-DSA)\nwith standard schemes (X25519, Ed25519) in a hybrid construction.\n\nEvery message shows how many milliseconds each algorithm took and how\nmany bytes the keys and signatures occupy. A benchmark screen compares\nthe key types side by side.\n\nTransport rides on public Nostr relays; there is no server of our own.\nAll you hand to the other person is a short contact string (the hash of\nyour key bundle).\n\nThe interface is available in Japanese and English.\n\nNote: this is teaching material. Secret keys are stored unencrypted on\nthe device and the cryptography is not constant time. Do not use it for\nanything that needs real secrecy.\n",
@@ -497,6 +497,50 @@
       }
     ],
     "io.github.pad01g.esotericcryptochat": [
+      {
+        "added": 1791614021000,
+        "apkName": "io.github.pad01g.esotericcryptochat_201.apk",
+        "hash": "19a5c4670c1644762dec0b76e32e4d591ec1ef352a6f740c3169c43651efd332",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "packageName": "io.github.pad01g.esotericcryptochat",
+        "sig": "ae8209672849a4b78189b121e45e0a97",
+        "signer": "8519fefa837ef318f581215a722c32257e9488dde72cf96be7286a540b96c639",
+        "size": 5006628,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "io.github.pad01g.esotericcryptochat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 201,
+        "versionName": "0.2.1"
+      },
       {
         "added": 1791612677000,
         "apkName": "io.github.pad01g.esotericcryptochat_200.apk",

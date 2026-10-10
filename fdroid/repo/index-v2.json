@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1791612720000,
+    "timestamp": 1791614065000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -210,7 +210,7 @@
           "Science & Education"
         ],
         "issueTracker": "https://github.com/pad01g/esoteric-crypto-chat/issues",
-        "lastUpdated": 1791612677000,
+        "lastUpdated": 1791614021000,
         "license": "MIT",
         "sourceCode": "https://github.com/pad01g/esoteric-crypto-chat",
         "featureGraphic": {
@@ -240,6 +240,55 @@
         "preferredSigner": "8519fefa837ef318f581215a722c32257e9488dde72cf96be7286a540b96c639"
       },
       "versions": {
+        "19a5c4670c1644762dec0b76e32e4d591ec1ef352a6f740c3169c43651efd332": {
+          "added": 1791614021000,
+          "file": {
+            "name": "/io.github.pad01g.esotericcryptochat_201.apk",
+            "sha256": "19a5c4670c1644762dec0b76e32e4d591ec1ef352a6f740c3169c43651efd332",
+            "size": 5006628
+          },
+          "manifest": {
+            "versionName": "0.2.1",
+            "versionCode": 201,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "8519fefa837ef318f581215a722c32257e9488dde72cf96be7286a540b96c639"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "io.github.pad01g.esotericcryptochat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {
+              "en-US": "Key bundles and messages travel through public Nostr relays run by\nthird parties (relay.damus.io, nos.lol, relay.nostr.band).\nRelays can be changed in the settings screen."
+            }
+          }
+        },
         "3cc636bf4f28d489f2edae10d83a708d26c9d43e10135dc5aaaac7adad24824e": {
           "added": 1791612677000,
           "file": {
