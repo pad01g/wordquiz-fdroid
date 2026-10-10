@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1790264948000,
+    "timestamp": 1791611251000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -198,6 +198,91 @@
             },
             "Tracking": {
               "en-US": "どの画面が開かれたかを Google Analytics (Firebase) へ送ります。\n送るのは**画面の名前と操作の名前だけ**です。\n写真も、コメントも、家族の情報も送りません。\n\n通知を受け取るために Firebase Cloud Messaging も使います。\n通知の許可を出さなければ、宛先そのものを作りません。\n\n広告 ID を使う権限は、マニフェストで明示的に取り消してあります。"
+            }
+          }
+        }
+      }
+    },
+    "io.github.pad01g.esotericcryptochat": {
+      "metadata": {
+        "added": 1791611209000,
+        "categories": [
+          "Science & Education"
+        ],
+        "issueTracker": "https://github.com/pad01g/esoteric-crypto-chat/issues",
+        "lastUpdated": 1791611209000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/pad01g/esoteric-crypto-chat",
+        "featureGraphic": {
+          "en-US": {
+            "name": "/io.github.pad01g.esotericcryptochat/en-US/featureGraphic_o9muEiTaoXy0j2Jy8qtU3JkmC-6eqlb1Y6oQEHndTis=.png",
+            "sha256": "a3d9ae1224daa17cb48f6272f2ab54dc99260bee9eaa56f563aa101079dd4e2b",
+            "size": 64737
+          }
+        },
+        "authorName": "pad01g",
+        "name": {
+          "en-US": "Esoteric Crypto Chat"
+        },
+        "summary": {
+          "en-US": "珍しい暗号を実際に使って、その重さと大きさを体感するチャット"
+        },
+        "description": {
+          "en-US": "標準的でない暗号 (種数2曲線の Kummer 曲面、虚二次体の類群、SLH-DSA) を\n標準的な暗号 (X25519, Ed25519) と組み合わせたハイブリッドで、\n実際に 1 対 1 のチャットをする教材アプリです。\n\n1 通ごとに、どのアルゴリズムに何ミリ秒かかり、署名や鍵が何バイトあるかを\n表示します。ベンチマーク画面で鍵タイプどうしを比べることもできます。\n\n通信には Nostr の公開リレーを使います。作者のサーバはありません。\n相手に渡すのは短い連絡先文字列 (鍵束のハッシュ) だけです。\n\n注意: これは教材です。秘密鍵は端末の中に平文で保存され、暗号処理は\n定数時間ではありません。実用の秘匿通信には使わないでください。"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/io.github.pad01g.esotericcryptochat/en-US/icon_E0uafPSjBWzX9xjuCd-_vX7mkGQbpExSpTTI2-4yuis=.png",
+            "sha256": "134b9a7cf4a3056cd7f718ee09dfbfbd7ee690641ba44c52a534c8dbee32ba2b",
+            "size": 24839
+          }
+        },
+        "preferredSigner": "8519fefa837ef318f581215a722c32257e9488dde72cf96be7286a540b96c639"
+      },
+      "versions": {
+        "9f68f80903cbbd28731ccd5782529d0048cc23f57fd6dcebf5f353d03c8b22ec": {
+          "added": 1791611209000,
+          "file": {
+            "name": "/io.github.pad01g.esotericcryptochat_100.apk",
+            "sha256": "9f68f80903cbbd28731ccd5782529d0048cc23f57fd6dcebf5f353d03c8b22ec",
+            "size": 4946746
+          },
+          "manifest": {
+            "versionName": "0.1.0",
+            "versionCode": 100,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "8519fefa837ef318f581215a722c32257e9488dde72cf96be7286a540b96c639"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "io.github.pad01g.esotericcryptochat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {
+              "en-US": "鍵束の公開とメッセージの中継に、第三者が運用する Nostr の公開リレー\n(relay.damus.io, nos.lol, relay.nostr.band) を使います。\nリレーは設定画面から変更できます。"
             }
           }
         }
