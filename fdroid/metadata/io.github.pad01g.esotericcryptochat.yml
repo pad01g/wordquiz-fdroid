@@ -1,0 +1,30 @@
+Categories:
+  - Science & Education
+License: MIT
+AuthorName: pad01g
+SourceCode: https://github.com/pad01g/esoteric-crypto-chat
+IssueTracker: https://github.com/pad01g/esoteric-crypto-chat/issues
+
+Name: Esoteric Crypto Chat
+Summary: 珍しい暗号を実際に使って、その重さと大きさを体感するチャット
+Description: |-
+  標準的でない暗号 (種数2曲線の Kummer 曲面、虚二次体の類群、SLH-DSA) を
+  標準的な暗号 (X25519, Ed25519) と組み合わせたハイブリッドで、
+  実際に 1 対 1 のチャットをする教材アプリです。
+
+  1 通ごとに、どのアルゴリズムに何ミリ秒かかり、署名や鍵が何バイトあるかを
+  表示します。ベンチマーク画面で鍵タイプどうしを比べることもできます。
+
+  通信には Nostr の公開リレーを使います。作者のサーバはありません。
+  相手に渡すのは短い連絡先文字列 (鍵束のハッシュ) だけです。
+
+  注意: これは教材です。秘密鍵は端末の中に平文で保存され、暗号処理は
+  定数時間ではありません。実用の秘匿通信には使わないでください。
+
+AntiFeatures:
+  NonFreeNet: |-
+    鍵束の公開とメッセージの中継に、第三者が運用する Nostr の公開リレー
+    (relay.damus.io, nos.lol, relay.nostr.band) を使います。
+    リレーは設定画面から変更できます。
+
+AutoName: Esoteric Crypto Chat
