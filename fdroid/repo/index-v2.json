@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1791611251000,
+    "timestamp": 1791612720000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -210,7 +210,7 @@
           "Science & Education"
         ],
         "issueTracker": "https://github.com/pad01g/esoteric-crypto-chat/issues",
-        "lastUpdated": 1791611209000,
+        "lastUpdated": 1791612677000,
         "license": "MIT",
         "sourceCode": "https://github.com/pad01g/esoteric-crypto-chat",
         "featureGraphic": {
@@ -225,10 +225,10 @@
           "en-US": "Esoteric Crypto Chat"
         },
         "summary": {
-          "en-US": "珍しい暗号を実際に使って、その重さと大きさを体感するチャット"
+          "en-US": "Chat with unusual cryptography and feel how slow and large it really is"
         },
         "description": {
-          "en-US": "標準的でない暗号 (種数2曲線の Kummer 曲面、虚二次体の類群、SLH-DSA) を\n標準的な暗号 (X25519, Ed25519) と組み合わせたハイブリッドで、\n実際に 1 対 1 のチャットをする教材アプリです。\n\n1 通ごとに、どのアルゴリズムに何ミリ秒かかり、署名や鍵が何バイトあるかを\n表示します。ベンチマーク画面で鍵タイプどうしを比べることもできます。\n\n通信には Nostr の公開リレーを使います。作者のサーバはありません。\n相手に渡すのは短い連絡先文字列 (鍵束のハッシュ) だけです。\n\n注意: これは教材です。秘密鍵は端末の中に平文で保存され、暗号処理は\n定数時間ではありません。実用の秘匿通信には使わないでください。"
+          "en-US": "A teaching app for one-to-one chat that pairs unusual cryptography\n(genus-2 Kummer surfaces, imaginary quadratic class groups, SLH-DSA)\nwith standard schemes (X25519, Ed25519) in a hybrid construction.\n\nEvery message shows how many milliseconds each algorithm took and how\nmany bytes the keys and signatures occupy. A benchmark screen compares\nthe key types side by side.\n\nTransport rides on public Nostr relays; there is no server of our own.\nAll you hand to the other person is a short contact string (the hash of\nyour key bundle). The interface is available in Japanese and English.\n\nNote: this is teaching material. Secret keys are stored unencrypted on\nthe device and the cryptography is not constant time."
         },
         "icon": {
           "en-US": {
@@ -240,6 +240,55 @@
         "preferredSigner": "8519fefa837ef318f581215a722c32257e9488dde72cf96be7286a540b96c639"
       },
       "versions": {
+        "3cc636bf4f28d489f2edae10d83a708d26c9d43e10135dc5aaaac7adad24824e": {
+          "added": 1791612677000,
+          "file": {
+            "name": "/io.github.pad01g.esotericcryptochat_200.apk",
+            "sha256": "3cc636bf4f28d489f2edae10d83a708d26c9d43e10135dc5aaaac7adad24824e",
+            "size": 4994638
+          },
+          "manifest": {
+            "versionName": "0.2.0",
+            "versionCode": 200,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "8519fefa837ef318f581215a722c32257e9488dde72cf96be7286a540b96c639"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "io.github.pad01g.esotericcryptochat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "antiFeatures": {
+            "NonFreeNet": {
+              "en-US": "Key bundles and messages travel through public Nostr relays run by\nthird parties (relay.damus.io, nos.lol, relay.nostr.band).\nRelays can be changed in the settings screen."
+            }
+          }
+        },
         "9f68f80903cbbd28731ccd5782529d0048cc23f57fd6dcebf5f353d03c8b22ec": {
           "added": 1791611209000,
           "file": {
@@ -282,7 +331,7 @@
           },
           "antiFeatures": {
             "NonFreeNet": {
-              "en-US": "鍵束の公開とメッセージの中継に、第三者が運用する Nostr の公開リレー\n(relay.damus.io, nos.lol, relay.nostr.band) を使います。\nリレーは設定画面から変更できます。"
+              "en-US": "Key bundles and messages travel through public Nostr relays run by\nthird parties (relay.damus.io, nos.lol, relay.nostr.band).\nRelays can be changed in the settings screen."
             }
           }
         }
