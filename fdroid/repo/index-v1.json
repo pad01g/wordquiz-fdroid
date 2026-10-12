@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1791614065000,
+    "timestamp": 1791780454000,
     "version": 20002,
     "name": "pad01g's apps",
     "icon": "icon.png",
@@ -850,7 +850,7 @@
       {
         "added": 1790055766000,
         "apkName": "io.github.pad01g.lw_200.apk",
-        "hash": "598a10b1a6875ee8bb09a8768fa071053059cefaa9965cec2b65a3b948430f0c",
+        "hash": "f441969c63f5f9dc272d1be763732262967c9c94ced3d2f6d796123cf5c4fa6b",
         "hashType": "sha256",
         "minSdkVersion": 23,
         "packageName": "io.github.pad01g.lw",

@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pad01g.github.io/wordquiz-fdroid/fdroid/repo",
-    "timestamp": 1791614065000,
+    "timestamp": 1791780454000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -742,11 +742,11 @@
         "preferredSigner": "e613ccff14318bc5a0cabff99c92265ea3d5fc9206ec0300c0172200df2cfce1"
       },
       "versions": {
-        "598a10b1a6875ee8bb09a8768fa071053059cefaa9965cec2b65a3b948430f0c": {
+        "f441969c63f5f9dc272d1be763732262967c9c94ced3d2f6d796123cf5c4fa6b": {
           "added": 1790055766000,
           "file": {
             "name": "/io.github.pad01g.lw_200.apk",
-            "sha256": "598a10b1a6875ee8bb09a8768fa071053059cefaa9965cec2b65a3b948430f0c",
+            "sha256": "f441969c63f5f9dc272d1be763732262967c9c94ced3d2f6d796123cf5c4fa6b",
             "size": 6622661
           },
           "manifest": {
